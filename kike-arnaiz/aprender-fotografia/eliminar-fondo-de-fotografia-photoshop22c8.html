@@ -1,0 +1,529 @@
+<!doctype html>
+<html amp>
+
+<!-- Mirrored from www.kikearnaiz.com/aprender-fotografia/eliminar-fondo-de-fotografia-photoshop?format=amp by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Dec 2024 19:37:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <title>Eliminar Fondo de fotografía en Photoshop y Online</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+  <link rel="canonical" href="eliminar-fondo-de-fotografia-photoshop.html">
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+  <style amp-custom>/* @group type scale */
+
+body {
+  font-size: 1em;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+p, ul, ol, blockquote {
+  margin-top: 1.45em;
+  margin-bottom: 1.45em;
+}
+
+blockquote {
+  font-style: italic;
+  color: #888;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1.414em;
+  border-left: 1px solid #eee;
+}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  color: #111;
+}
+
+h1 {
+  font-size: 2.074em;
+}
+
+h2 {
+  font-size: 1.728em;
+}
+
+h3 {
+  font-size: 1.44em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+blockquote,
+.amp-article-quote-block-source,
+.amp-article-original-source {
+  font-size: 0.833em;
+}
+
+.amp-article-image-caption p,
+.amp-article-video-caption p,
+.amp-article-audio-caption p,
+.amp-article-pubdate,
+.amp-article-author-name {
+  font-size: 0.694em;
+  letter-spacing: 0;
+}
+
+.tiny-font {
+  font-size: 0.579em;
+}
+
+/* @group end */
+
+/* @group general */
+
+body {
+  background: #f2f2f2;
+  font-family: "Avenir Next", Avenir, Roboto, "Segoe WP", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.0125em;
+  line-height: 1.45;
+  color: #666;
+}
+
+.website {
+  width: 100vw;
+  max-width: 768px;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+}
+
+.website-header {
+  background: #111;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2vh 4vw;
+  box-sizing: border-box;
+  max-height: 12vh;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 0.833em;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #f7f7f7;
+}
+
+.site-title a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+.amp-view-original {
+  font-size: 0.579em;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: right;
+  white-space: nowrap;
+  color: #666;
+}
+
+.amp-view-original a {
+  color: #666;
+  text-decoration: none;
+}
+
+/* @group end */
+
+/* @group amp article */
+
+.amp-article-content {
+  padding-bottom: 4vh;
+  box-sizing: border-box;
+}
+
+.amp-article-main-image {
+  max-width: 100%;
+}
+
+.amp-article-header {
+  margin-top: 4vh;
+}
+
+.amp-article-header,
+.amp-article-footer,
+.amp-article-html-block,
+.amp-article-markdown-block,
+.amp-article-image-caption,
+.amp-article-video-caption,
+.amp-article-quote-block,
+.amp-article-audio-block,
+.amp-article-embed-block.twitter-tweet {
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.amp-article-title {
+  letter-spacing: -0.0325em;
+}
+
+.amp-article-image-block,
+.amp-article-video-block {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.amp-article-pubdate,
+.amp-article-author-name,
+.amp-article-image-caption,
+.amp-article-video-caption,
+.amp-article-audio-caption,
+.amp-article-quote-block-source {
+  color: #999;
+}
+
+.amp-article-pubdate,
+.amp-article-author-name {
+  display: inline-block;
+  letter-spacing: 0.02em;
+}
+
+.amp-article-pubdate + .amp-article-author-name:before,
+.amp-article-audio-title + .amp-article-audio-author:before {
+  content: ' by ';
+}
+
+.amp-article-audio-title {
+  font-style: italic;
+}
+
+.amp-article-quote-block {
+  margin-top: 1.45em;
+  margin-bottom: 1.45em;
+}
+
+.amp-article-quote-block-text {
+  font-size: 1.2em;
+  font-style: italic;
+  line-height: 1.2;
+  color: #111;
+  margin: 0;
+  padding: 0;
+  border-left-width: 0px;
+}
+
+.amp-article-quote-block-source {
+  margin-top: 0.833em;
+  display: block;
+}
+
+.amp-article-audio-caption p {
+  margin-top: 0.5em;
+  display: block;
+}
+
+amp-img {
+  background-color: #f7f7f7;
+  max-width: 100%;
+}
+
+.amp-article-hr-block {
+  height: 1px;
+  border: none;
+  margin: 2.6em 0;
+  color: #eee;
+  background-color: #eee;
+}
+
+.amp-article-placeholder-block {
+  background-color: rgba(0, 0, 0, 0.02);
+  margin: 1.45em;
+  padding: 1.45em;
+  text-align: center;
+}
+
+/* @group end */
+</style>
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "headline": "Eliminar Fondo de fotografía en Photoshop y Online",
+      "mainEntityOfPage": "https://www.kikearnaiz.com",
+      
+      "url": "https://www.kikearnaiz.com/aprender-fotografia/eliminar-fondo-de-fotografia-photoshop",
+      "author": {
+        "@type": "Person",
+        "name": "Manuel Escalona"
+      },
+      "publisher": {
+        "@type": "Organization",
+        
+        "name": "KIKE ARNAIZ"
+      },
+      
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1677696433473-OKQFWI1UI4A6X8RFCI37/eliminar-fondo-en-photoshop.jpg?format=750w",
+        "width": 640,
+        "height": 479
+      },
+      
+      "datePublished": "2023-02-28",
+      "dateModified": "2023-03-01"
+    }
+  </script>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  
+</head>
+<body>
+  <div id="page" class="website">
+
+    <header class="website-header">
+      <h1 class="site-title"><a href="../index.html" target="_blank">KIKE ARNAIZ</a></h1>
+      <small class="amp-view-original"><a href="eliminar-fondo-de-fotografia-photoshop.html" target="_blank">View Original</a></small>
+    </header>
+
+    <article id="content" class="amp-article-content">
+      
+        <amp-img
+          class="amp-article-main-image"
+          layout="responsive"
+          width="640"
+          height="479"
+          src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1677696433473-OKQFWI1UI4A6X8RFCI37/eliminar-fondo-en-photoshop.jpg?format=500w"
+          srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1677696433473-OKQFWI1UI4A6X8RFCI37/eliminar-fondo-en-photoshop.jpg?format=2500w 2500w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1677696433473-OKQFWI1UI4A6X8RFCI37/eliminar-fondo-en-photoshop.jpg?format=1500w 1500w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1677696433473-OKQFWI1UI4A6X8RFCI37/eliminar-fondo-en-photoshop.jpg?format=1000w 1000w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1677696433473-OKQFWI1UI4A6X8RFCI37/eliminar-fondo-en-photoshop.jpg?format=750w 750w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1677696433473-OKQFWI1UI4A6X8RFCI37/eliminar-fondo-en-photoshop.jpg?format=500w 500w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1677696433473-OKQFWI1UI4A6X8RFCI37/eliminar-fondo-en-photoshop.jpg?format=300w 300w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1677696433473-OKQFWI1UI4A6X8RFCI37/eliminar-fondo-en-photoshop.jpg?format=100w 100w"
+          sizes="100vw">
+        </amp-img>
+      
+
+      <header class="amp-article-header">
+        <h1 class="amp-article-title">Eliminar Fondo de fotografía en Photoshop y Online</h1>
+        <div class="amp-article-meta">
+          <time class="amp-article-pubdate" datetime="2023-02-28">
+            February 28, 2023
+          </time>
+          <small class="amp-article-author-name">Manuel Escalona</small>
+        </div>
+      </header>
+
+      
+
+
+
+<div class="amp-article-html-block"><p class="">A todos alguna vez nos ha tocado separar una persona o un objeto de un fondo, ya sea para hacer un fotomontaje o porque descargaste un falso png con fondo de cuadr&iacute;cula.</p>
+<p class="">Por esta raz&oacute;n aqu&iacute; te mostrar&eacute; <strong>c&oacute;mo eliminar un fondo en Photoshop</strong> con diferentes m&eacute;todos. Algo que debes saber hacer si quieres dedicarte a la fotograf&iacute;a, ya que en alg&uacute;n momento lo vas a utilizar.</p>
+<p class="">Y <strong>si no tienes Photoshop </strong>te invito a avanzar hasta el final del art&iacute;culo para que descubras c&oacute;mo eliminar el fondo de una imagen online, f&aacute;cil, r&aacute;pido y gratis.</p>
+<h2>Formas de eliminar el fondo de una fotograf&iacute;a con Photoshop</h2>
+<p class="">Algo genial de Photoshop es que ofrece variedad de opciones para llevar a cabo una tarea, en este caso eliminar el fondo de una fotograf&iacute;a.</p>
+<h3>Selecciona y aplica m&aacute;scara</h3></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="640"
+    height="494"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/13afe806-3d7f-4118-bd25-5d081b923161/quitar-fondo-foto-en-ps.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/13afe806-3d7f-4118-bd25-5d081b923161/quitar-fondo-foto-en-ps.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/13afe806-3d7f-4118-bd25-5d081b923161/quitar-fondo-foto-en-ps.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/13afe806-3d7f-4118-bd25-5d081b923161/quitar-fondo-foto-en-ps.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/13afe806-3d7f-4118-bd25-5d081b923161/quitar-fondo-foto-en-ps.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/13afe806-3d7f-4118-bd25-5d081b923161/quitar-fondo-foto-en-ps.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/13afe806-3d7f-4118-bd25-5d081b923161/quitar-fondo-foto-en-ps.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/13afe806-3d7f-4118-bd25-5d081b923161/quitar-fondo-foto-en-ps.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Este es uno de los m&eacute;todos m&aacute;s precisos y f&aacute;ciles de aplicar para eliminar el fondo de una imagen en Photoshop.</p>
+<p class="">Para ello solo debes de llevar a cabo lo siguiente:</p>
+<ul data-rte-list="default">
+ <li><p class="">Abre la imagen en Ps.</p></li>
+ <li><p class="">Crea una copia de la capa, (nunca se debe editar el original) oculta la capa fondo.</p></li>
+ <li><p class="">Ve a la ventana<strong> Selecciona</strong> y clica en la opci&oacute;n: <strong>Seleccionar y aplicar m&aacute;scara</strong>.</p></li>
+ <li><p class="">Aparecer&aacute; un panel con pinceles a la izquierda y propiedades a la derecha.</p></li>
+ <li><p class="">Deja la transparencia entre el 20 y 50% para que as&iacute; puedas ver que debes borrar.</p></li>
+ <li><p class="">Con el pincel, comienza a clicar sobre las zonas que no quieres eliminar.</p></li>
+ <li><p class="">Si pintas una zona que no quer&iacute;as eliminar pulsa el bot&oacute;n Alt y clica sobre la zona que deseas eliminar y listo.</p></li>
+ <li><p class="">Tambi&eacute;n puedes hacer zoom para ser m&aacute;s preciso y si quieres que la imagen tenga los bordes menos pixelados puedes jugar con la opci&oacute;n de <strong>perfeccionamientos globales</strong> y redondear la selecci&oacute;n.</p></li>
+ <li><p class="">Por &uacute;ltimo, debes darle al bot&oacute;n ok y ya estar&iacute;a lista la imagen con el fondo eliminado.</p></li>
+</ul>
+<h3>Eliminar fondo con acciones r&aacute;pidas</h3>
+<p class="">Las acciones r&aacute;pidas de Photoshop te ahorran un mont&oacute;n de tiempo, ya que con un par de clics puedes eliminar el fondo de la fotograf&iacute;a. Aqu&iacute; el paso a paso que debes seguir:</p>
+<ul data-rte-list="default">
+ <li><p class="">Abre la imagen en Photoshop.</p></li>
+ <li><p class="">Duplica la capa con Ctrl J y oculta la capa original.</p></li>
+ <li><p class="">Abre la ventana de propiedades.</p></li>
+ <li><p class="">Baja hasta la opci&oacute;n de acciones r&aacute;pidas y clica en eliminar fondo.</p></li>
+</ul>
+<p class="">Ya el fondo estar&iacute;a eliminado de forma r&aacute;pida, sin embargo, si tu fotograf&iacute;a tiene mucho detalle, quiz&aacute; no sea el mejor resultado, pero se puede mejorar haciendo lo siguiente:</p>
+<ul data-rte-list="default">
+ <li><p class="">Ve a la herramienta de lazo y clica en Seleccionar y aplicar m&aacute;scara.</p></li>
+ <li><p class="">En el panel izquierdo deber&aacute;s seleccionar el pincel para perfeccionar bordes.</p></li>
+ <li><p class="">Aplica el pincel en las zonas del cabello que quieras perfeccionar y listo.</p></li>
+</ul></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="700"
+    height="329"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/bf378621-f765-44af-a132-69aaa95df4d7/metodos-para-quitar-fondo-photoshop.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/bf378621-f765-44af-a132-69aaa95df4d7/metodos-para-quitar-fondo-photoshop.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/bf378621-f765-44af-a132-69aaa95df4d7/metodos-para-quitar-fondo-photoshop.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/bf378621-f765-44af-a132-69aaa95df4d7/metodos-para-quitar-fondo-photoshop.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/bf378621-f765-44af-a132-69aaa95df4d7/metodos-para-quitar-fondo-photoshop.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/bf378621-f765-44af-a132-69aaa95df4d7/metodos-para-quitar-fondo-photoshop.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/bf378621-f765-44af-a132-69aaa95df4d7/metodos-para-quitar-fondo-photoshop.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/bf378621-f765-44af-a132-69aaa95df4d7/metodos-para-quitar-fondo-photoshop.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Dependiendo de la imagen a la que quieras borrar el fondo podr&aacute;s utilizar este m&eacute;todo, ya que en ocasiones el recorte no ser&aacute; perfecto.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="700"
+    height="472"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1677696371147-1T3CNW0V25WDJ0NOP70Z/quitar-fondo-photoshop.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1677696371147-1T3CNW0V25WDJ0NOP70Z/quitar-fondo-photoshop.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1677696371147-1T3CNW0V25WDJ0NOP70Z/quitar-fondo-photoshop.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1677696371147-1T3CNW0V25WDJ0NOP70Z/quitar-fondo-photoshop.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1677696371147-1T3CNW0V25WDJ0NOP70Z/quitar-fondo-photoshop.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1677696371147-1T3CNW0V25WDJ0NOP70Z/quitar-fondo-photoshop.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1677696371147-1T3CNW0V25WDJ0NOP70Z/quitar-fondo-photoshop.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1677696371147-1T3CNW0V25WDJ0NOP70Z/quitar-fondo-photoshop.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><h3>Varita m&aacute;gica</h3></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="400"
+    height="166"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/dfe2751a-3bc0-4ba6-8638-7e315d4bf192/herramienta-varita-magica.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/dfe2751a-3bc0-4ba6-8638-7e315d4bf192/herramienta-varita-magica.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/dfe2751a-3bc0-4ba6-8638-7e315d4bf192/herramienta-varita-magica.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/dfe2751a-3bc0-4ba6-8638-7e315d4bf192/herramienta-varita-magica.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/dfe2751a-3bc0-4ba6-8638-7e315d4bf192/herramienta-varita-magica.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/dfe2751a-3bc0-4ba6-8638-7e315d4bf192/herramienta-varita-magica.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/dfe2751a-3bc0-4ba6-8638-7e315d4bf192/herramienta-varita-magica.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/dfe2751a-3bc0-4ba6-8638-7e315d4bf192/herramienta-varita-magica.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Otra de las formas de eliminar el fondo de una imagen es con la herramienta de varita m&aacute;gica, para ello debes hacer lo siguiente:</p>
+<ul data-rte-list="default">
+ <li><p class="">Abre la imagen.</p></li>
+ <li><p class="">Selecciona la herramienta de varita m&aacute;gica.</p></li>
+ <li><p class="">Comienza a hacer clic sobre el &aacute;rea que quieres eliminar hasta completar la selecci&oacute;n.</p></li>
+ <li><p class="">En caso de que selecciones una parte que no quieres borrar, preciosa Alt y clica sobre la zona.</p></li>
+ <li><p class="">Ahora presiona clic derecho y luego invierte la selecci&oacute;n.</p></li>
+ <li><p class="">Por &uacute;ltimo, crea una m&aacute;scara de capa y listo.</p></li>
+</ul>
+<p class="">Esta herramienta viene bien para hacer selecciones donde hay colores definidos, ya que la varita m&aacute;gica trabaja seleccionando p&iacute;xeles del mismo color.</p>
+<h3>Herramienta de selecci&oacute;n de objetos</h3>
+<p class="">Para eliminar el fondo de una imagen con la herramienta de selecci&oacute;n de objetos, solo debemos hacerlo lo siguiente:</p>
+<ul data-rte-list="default">
+ <li><p class="">Clica en la herramienta.</p></li>
+ <li><p class="">Contornear la silueta del sujeto de forma manual y clic derecho para invertir la selecci&oacute;n.</p></li>
+ <li><p class="">Tambi&eacute;n puedes hacer la selecci&oacute;n autom&aacute;tica dando clic a la pesta&ntilde;a <strong><em>Seleccionar sujeto</em></strong>.</p></li>
+ <li><p class="">Luego crea una m&aacute;scara de capa y listo.</p></li>
+</ul>
+<h2>&iquest;Quieres aprender a retocar tus fotos?</h2></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="272"
+    height="381"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/7005a28c-ad11-4455-af06-01a96e6c0e06/curso-retoque-fotografico.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/7005a28c-ad11-4455-af06-01a96e6c0e06/curso-retoque-fotografico.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/7005a28c-ad11-4455-af06-01a96e6c0e06/curso-retoque-fotografico.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/7005a28c-ad11-4455-af06-01a96e6c0e06/curso-retoque-fotografico.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/7005a28c-ad11-4455-af06-01a96e6c0e06/curso-retoque-fotografico.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/7005a28c-ad11-4455-af06-01a96e6c0e06/curso-retoque-fotografico.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/7005a28c-ad11-4455-af06-01a96e6c0e06/curso-retoque-fotografico.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/7005a28c-ad11-4455-af06-01a96e6c0e06/curso-retoque-fotografico.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Si te interesa aprender a usar Photoshop y Lightroom aplic&aacute;ndolo a la fotograf&iacute;a, el <strong>curso de retoque fotogr&aacute;fico de Kike Arnaiz</strong> es lo que necesitas para llevar tus fotos al siguiente nivel. Un curso en formato de video dividido en 25 secciones con m&aacute;s de <strong>8 horas de clases te&oacute;ricas y pr&aacute;cticas </strong>en las que aprender&aacute;s desde conceptos b&aacute;sicos hasta ajustes avanzados. Ingresa al curso desde el bot&oacute;n de aqu&iacute; abajo.</p></div>
+
+
+
+
+<div class="amp-article-html-block"><h2>La forma m&aacute;s f&aacute;cil de eliminar un fondo</h2>
+<ul data-rte-list="default">
+ <li><p class="">Busca en Google: Eliminar fondo online.</p></li>
+ <li><p class="">Entra al primer o segundo resultado que te aparece.</p></li>
+ <li><p class="">Sube tu fotograf&iacute;a, dale clic en<strong> quitar fondo</strong> o cualquier bot&oacute;n similar.</p></li>
+ <li><p class="">Listo, descarga la foto sin fondo.</p></li>
+</ul>
+<p class="">Ten en cuenta que la calidad de la imagen se reduce y que adem&aacute;s si el objeto tiene mucho detalle quiz&aacute; no sea la mejor forma de eliminar el fondo sin rollo.</p></div>
+
+
+
+
+<div class="amp-article-placeholder-block">
+  <a href="eliminar-fondo-de-fotografia-photoshop.html">
+    <em>
+      See this gallery in the original post
+    </em>
+  </a>
+</div>
+
+
+      <footer class="amp-article-footer">
+        <p class="amp-article-original-source">
+          Discover more from <a href="../aprender-fotografia.html" target="_blank"><em>KIKE ARNAIZ</em></a>
+        </p>
+      </footer>
+
+    </article>
+  </div>
+</body>
+
+<!-- Mirrored from www.kikearnaiz.com/aprender-fotografia/eliminar-fondo-de-fotografia-photoshop?format=amp by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Dec 2024 19:37:44 GMT -->
+</html>
