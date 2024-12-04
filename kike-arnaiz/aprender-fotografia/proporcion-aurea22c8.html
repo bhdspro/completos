@@ -1,0 +1,502 @@
+<!doctype html>
+<html amp>
+
+<!-- Mirrored from www.kikearnaiz.com/aprender-fotografia/proporcion-aurea?format=amp by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Dec 2024 19:36:59 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <title>¿Qué es la proporción áurea? Aprende a aplicarla</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+  <link rel="canonical" href="proporcion-aurea.html">
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+  <style amp-custom>/* @group type scale */
+
+body {
+  font-size: 1em;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+p, ul, ol, blockquote {
+  margin-top: 1.45em;
+  margin-bottom: 1.45em;
+}
+
+blockquote {
+  font-style: italic;
+  color: #888;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1.414em;
+  border-left: 1px solid #eee;
+}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  color: #111;
+}
+
+h1 {
+  font-size: 2.074em;
+}
+
+h2 {
+  font-size: 1.728em;
+}
+
+h3 {
+  font-size: 1.44em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+blockquote,
+.amp-article-quote-block-source,
+.amp-article-original-source {
+  font-size: 0.833em;
+}
+
+.amp-article-image-caption p,
+.amp-article-video-caption p,
+.amp-article-audio-caption p,
+.amp-article-pubdate,
+.amp-article-author-name {
+  font-size: 0.694em;
+  letter-spacing: 0;
+}
+
+.tiny-font {
+  font-size: 0.579em;
+}
+
+/* @group end */
+
+/* @group general */
+
+body {
+  background: #f2f2f2;
+  font-family: "Avenir Next", Avenir, Roboto, "Segoe WP", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.0125em;
+  line-height: 1.45;
+  color: #666;
+}
+
+.website {
+  width: 100vw;
+  max-width: 768px;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+}
+
+.website-header {
+  background: #111;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2vh 4vw;
+  box-sizing: border-box;
+  max-height: 12vh;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 0.833em;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #f7f7f7;
+}
+
+.site-title a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+.amp-view-original {
+  font-size: 0.579em;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: right;
+  white-space: nowrap;
+  color: #666;
+}
+
+.amp-view-original a {
+  color: #666;
+  text-decoration: none;
+}
+
+/* @group end */
+
+/* @group amp article */
+
+.amp-article-content {
+  padding-bottom: 4vh;
+  box-sizing: border-box;
+}
+
+.amp-article-main-image {
+  max-width: 100%;
+}
+
+.amp-article-header {
+  margin-top: 4vh;
+}
+
+.amp-article-header,
+.amp-article-footer,
+.amp-article-html-block,
+.amp-article-markdown-block,
+.amp-article-image-caption,
+.amp-article-video-caption,
+.amp-article-quote-block,
+.amp-article-audio-block,
+.amp-article-embed-block.twitter-tweet {
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.amp-article-title {
+  letter-spacing: -0.0325em;
+}
+
+.amp-article-image-block,
+.amp-article-video-block {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.amp-article-pubdate,
+.amp-article-author-name,
+.amp-article-image-caption,
+.amp-article-video-caption,
+.amp-article-audio-caption,
+.amp-article-quote-block-source {
+  color: #999;
+}
+
+.amp-article-pubdate,
+.amp-article-author-name {
+  display: inline-block;
+  letter-spacing: 0.02em;
+}
+
+.amp-article-pubdate + .amp-article-author-name:before,
+.amp-article-audio-title + .amp-article-audio-author:before {
+  content: ' by ';
+}
+
+.amp-article-audio-title {
+  font-style: italic;
+}
+
+.amp-article-quote-block {
+  margin-top: 1.45em;
+  margin-bottom: 1.45em;
+}
+
+.amp-article-quote-block-text {
+  font-size: 1.2em;
+  font-style: italic;
+  line-height: 1.2;
+  color: #111;
+  margin: 0;
+  padding: 0;
+  border-left-width: 0px;
+}
+
+.amp-article-quote-block-source {
+  margin-top: 0.833em;
+  display: block;
+}
+
+.amp-article-audio-caption p {
+  margin-top: 0.5em;
+  display: block;
+}
+
+amp-img {
+  background-color: #f7f7f7;
+  max-width: 100%;
+}
+
+.amp-article-hr-block {
+  height: 1px;
+  border: none;
+  margin: 2.6em 0;
+  color: #eee;
+  background-color: #eee;
+}
+
+.amp-article-placeholder-block {
+  background-color: rgba(0, 0, 0, 0.02);
+  margin: 1.45em;
+  padding: 1.45em;
+  text-align: center;
+}
+
+/* @group end */
+</style>
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "headline": "¿Qué es la proporción áurea? Aprende a aplicarla",
+      "mainEntityOfPage": "https://www.kikearnaiz.com",
+      
+      "url": "https://www.kikearnaiz.com/aprender-fotografia/proporcion-aurea",
+      "author": {
+        "@type": "Person",
+        "name": "Manuel Escalona"
+      },
+      "publisher": {
+        "@type": "Organization",
+        
+        "name": "KIKE ARNAIZ"
+      },
+      
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1686069631050-TBMLFOPZ6HG22SI4QSMR/proporcion-aurea-ejemplo.jpg?format=750w",
+        "width": 688,
+        "height": 425
+      },
+      
+      "datePublished": "2023-06-06",
+      "dateModified": "2023-06-06"
+    }
+  </script>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  
+</head>
+<body>
+  <div id="page" class="website">
+
+    <header class="website-header">
+      <h1 class="site-title"><a href="../index.html" target="_blank">KIKE ARNAIZ</a></h1>
+      <small class="amp-view-original"><a href="proporcion-aurea.html" target="_blank">View Original</a></small>
+    </header>
+
+    <article id="content" class="amp-article-content">
+      
+        <amp-img
+          class="amp-article-main-image"
+          layout="responsive"
+          width="688"
+          height="425"
+          src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1686069631050-TBMLFOPZ6HG22SI4QSMR/proporcion-aurea-ejemplo.jpg?format=500w"
+          srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1686069631050-TBMLFOPZ6HG22SI4QSMR/proporcion-aurea-ejemplo.jpg?format=2500w 2500w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1686069631050-TBMLFOPZ6HG22SI4QSMR/proporcion-aurea-ejemplo.jpg?format=1500w 1500w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1686069631050-TBMLFOPZ6HG22SI4QSMR/proporcion-aurea-ejemplo.jpg?format=1000w 1000w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1686069631050-TBMLFOPZ6HG22SI4QSMR/proporcion-aurea-ejemplo.jpg?format=750w 750w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1686069631050-TBMLFOPZ6HG22SI4QSMR/proporcion-aurea-ejemplo.jpg?format=500w 500w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1686069631050-TBMLFOPZ6HG22SI4QSMR/proporcion-aurea-ejemplo.jpg?format=300w 300w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1686069631050-TBMLFOPZ6HG22SI4QSMR/proporcion-aurea-ejemplo.jpg?format=100w 100w"
+          sizes="100vw">
+        </amp-img>
+      
+
+      <header class="amp-article-header">
+        <h1 class="amp-article-title">¿Qué es la proporción áurea? Aprende a aplicarla</h1>
+        <div class="amp-article-meta">
+          <time class="amp-article-pubdate" datetime="2023-06-06">
+            June  6, 2023
+          </time>
+          <small class="amp-article-author-name">Manuel Escalona</small>
+        </div>
+      </header>
+
+      
+
+
+
+<div class="amp-article-html-block"><p class="">Existen diferentes formas de componer una fotograf&iacute;a, darle armon&iacute;a a una obra de arte o una obra arquitect&oacute;nica, una de estas formas es con el uso de la proporci&oacute;n &aacute;urea.</p>
+<p class="">Este concepto abarca diversas &aacute;reas, desde la matem&aacute;tica hasta la belleza de la naturaleza y el arte.&nbsp;</p>
+<p class="">Con el uso de la proporci&oacute;n &aacute;urea se espera conseguir la armon&iacute;a de las formas y alcanzar la aclamada perfecci&oacute;n visual.</p>
+<p class="">Por ello, en este art&iacute;culo te compartir&eacute; informaci&oacute;n muy interesante sobre la muy com&uacute;n proporci&oacute;n &aacute;urea, que significa, su origen y c&oacute;mo se aplica en el arte y fotograf&iacute;a.</p>
+<h2>&iquest;Qu&eacute; es la proporci&oacute;n &aacute;urea?</h2></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="688"
+    height="425"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/db428c56-86ba-4367-ae45-bb9463a964c5/proporcion-aurea-ejemplo.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/db428c56-86ba-4367-ae45-bb9463a964c5/proporcion-aurea-ejemplo.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/db428c56-86ba-4367-ae45-bb9463a964c5/proporcion-aurea-ejemplo.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/db428c56-86ba-4367-ae45-bb9463a964c5/proporcion-aurea-ejemplo.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/db428c56-86ba-4367-ae45-bb9463a964c5/proporcion-aurea-ejemplo.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/db428c56-86ba-4367-ae45-bb9463a964c5/proporcion-aurea-ejemplo.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/db428c56-86ba-4367-ae45-bb9463a964c5/proporcion-aurea-ejemplo.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/db428c56-86ba-4367-ae45-bb9463a964c5/proporcion-aurea-ejemplo.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Este concepto nace de la geometr&iacute;a y permite por medio de una sucesi&oacute;n de n&uacute;meros y rect&aacute;ngulos darle armon&iacute;a y proporci&oacute;n a todo.</p>
+<p class="">Este t&eacute;rmino tiene su origen en el Siglo XVI, donde el reconocido matem&aacute;tico Leonardo Pisano (conocido tambi&eacute;n como Fibonacci), empieza a divulgar el sistema de numeraci&oacute;n &aacute;rabe con base decimal.</p>
+<p class="">Fibonacci hizo un descubrimiento al cual se le denomin&oacute; sucesi&oacute;n de Fibonacci, que dio lugar m&aacute;s tarde a la proporci&oacute;n &aacute;urea.&nbsp;</p>
+<p class="">Luego se dieron cuenta de que utilizando la proporci&oacute;n &aacute;urea de que todo lo que est&aacute; bien hecho y proporcionado cumple con esta suseci&oacute;n, como la naturaleza misma.</p>
+<p class="">A la proporci&oacute;n &aacute;urea tambi&eacute;n se le conoce como “proporci&oacute;n de oro” o “dorada”.</p>
+<h2>&iquest;Qu&eacute; es la sucesi&oacute;n de Fibonacci?</h2>
+<p class="">La sucesi&oacute;n de Fibonacci es una serie infinita de n&uacute;meros que cuyo n&uacute;mero superior siguiente se consigue sumando los dos anteriores. La sucesi&oacute;n es la siguiente: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, etc.</p>
+<p class="">Por ejemplo, para conseguir el 2, se suma 1+1, para conseguir el 3 se suma 2 + 1 y as&iacute; hasta el infinito.</p>
+<p class="">Si dividimos cada n&uacute;mero de la secuencia, con el n&uacute;mero que le antecede, este tendr&aacute; como resultado un n&uacute;mero que se aproxima al “valor del n&uacute;mero &aacute;ureo”.</p>
+<p class="">Cuando se habla del n&uacute;mero &aacute;ureo tambi&eacute;n se hace referencia a la letra griega φ o Φ (fi), con un valor de aproximadamente 1.6180339887.</p>
+<h2>Aprende composici&oacute;n fotogr&aacute;fica</h2>
+<p class="">Si quieres aprender a hacer mejores fotos debes de tener conocimiento y dominar por completo conceptos b&aacute;sicos de fotograf&iacute;a, pero adem&aacute;s de ello saber componer es clave para contar historias de forma correcta. Por ello, te recomiendo que le eches un ojo al <a href="../curso-composicion-fotografica.html"><span>curso de composici&oacute;n fotogr&aacute;fica de Kike Arnaiz</span></a>, con el que aprender&aacute;s lo necesario para hacer mejores fotos.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="386"
+    height="491"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/b9e53b92-0bac-4b4b-912d-52c4d3469aa9/curso-de-composicion.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/b9e53b92-0bac-4b4b-912d-52c4d3469aa9/curso-de-composicion.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/b9e53b92-0bac-4b4b-912d-52c4d3469aa9/curso-de-composicion.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/b9e53b92-0bac-4b4b-912d-52c4d3469aa9/curso-de-composicion.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/b9e53b92-0bac-4b4b-912d-52c4d3469aa9/curso-de-composicion.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/b9e53b92-0bac-4b4b-912d-52c4d3469aa9/curso-de-composicion.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/b9e53b92-0bac-4b4b-912d-52c4d3469aa9/curso-de-composicion.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/b9e53b92-0bac-4b4b-912d-52c4d3469aa9/curso-de-composicion.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><h2>La proporci&oacute;n &aacute;urea en la fotograf&iacute;a</h2></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="640"
+    height="426"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/e5d1d7af-4161-4ae2-9f5e-f755b5ae8334/proporciones-oreja.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/e5d1d7af-4161-4ae2-9f5e-f755b5ae8334/proporciones-oreja.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/e5d1d7af-4161-4ae2-9f5e-f755b5ae8334/proporciones-oreja.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/e5d1d7af-4161-4ae2-9f5e-f755b5ae8334/proporciones-oreja.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/e5d1d7af-4161-4ae2-9f5e-f755b5ae8334/proporciones-oreja.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/e5d1d7af-4161-4ae2-9f5e-f755b5ae8334/proporciones-oreja.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/e5d1d7af-4161-4ae2-9f5e-f755b5ae8334/proporciones-oreja.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/e5d1d7af-4161-4ae2-9f5e-f755b5ae8334/proporciones-oreja.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Este concepto se utiliza como una regla de composici&oacute;n para conseguir fotograf&iacute;as m&aacute;s atractivas.</p>
+<p class="">El objetivo es que aplicando la proporci&oacute;n &aacute;urea, se logre una composici&oacute;n que equilibre todos los elementos que hay en el encuadre y, en definitiva, mejorar la forma en que se cuenta la historia con esa fotograf&iacute;a.</p>
+<p class="">Para aplicar la proporci&oacute;n &aacute;urea a la fotograf&iacute;a, se suele recomendar la “<a href="regla-de-tercios.html" target="_blank">regla de los tercios</a>”. Aunque no son lo mismo, la regla de tercios es una forma m&aacute;s simple de aplicar la proporci&oacute;n &aacute;urea, que indica cu&aacute;les son los puntos a donde el ojo humano suele ir y d&oacute;nde t&uacute; debes colocar el punto de inter&eacute;s de tu fotograf&iacute;a.</p>
+<p class=""><strong>Lee tambi&eacute;n:</strong> <a href="regla-de-tercios.html" target="_blank">&iquest;Qu&eacute; es la regla de tercios?</a></p>
+<p class="">Mediante el uso de la proporci&oacute;n &aacute;urea se puede <strong>conseguir una composici&oacute;n arm&oacute;nica, est&eacute;tica y bien proporcionada</strong>. Entonces, aplicando ese concepto, se puede lograr un equilibrio entre el elemento o sujeto central de la fotograf&iacute;a con el resto de elementos que lo rodean.</p>
+<h2>Aplicaci&oacute;n de la proporci&oacute;n &aacute;urea</h2></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="400"
+    height="600"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/bee65588-120f-4588-b04c-da5951c188b5/ejemplo-proporción-aurea.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/bee65588-120f-4588-b04c-da5951c188b5/ejemplo-proporci%C3%B3n-aurea.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/bee65588-120f-4588-b04c-da5951c188b5/ejemplo-proporci%C3%B3n-aurea.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/bee65588-120f-4588-b04c-da5951c188b5/ejemplo-proporci%C3%B3n-aurea.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/bee65588-120f-4588-b04c-da5951c188b5/ejemplo-proporci%C3%B3n-aurea.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/bee65588-120f-4588-b04c-da5951c188b5/ejemplo-proporci%C3%B3n-aurea.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/bee65588-120f-4588-b04c-da5951c188b5/ejemplo-proporci%C3%B3n-aurea.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/bee65588-120f-4588-b04c-da5951c188b5/ejemplo-proporci%C3%B3n-aurea.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">La proporci&oacute;n &aacute;urea se aplica en diversas &aacute;reas como la arquitectura, fotograf&iacute;a, dise&ntilde;o gr&aacute;fico, pintura o esculturas. Revisando la historia, se puede encontrar que ya se usaba desde la edad media, en las construcciones arquitect&oacute;nicas. Si retrocedemos unos cientos de a&ntilde;os m&aacute;s, se pueden encontrar construcciones con miles de a&ntilde;os que ya utilizaban la proporci&oacute;n &aacute;urea, como en el caso del Parten&oacute;n de Atenas.</p>
+<p class="">Este tipo de armon&iacute;a ya existe en la naturaleza misma. Los &aacute;rboles, las flores, las alas de las mariposas son algunos ejemplos de donde se puede ver una proporci&oacute;n y equilibrio.</p>
+<p class="">Por ello, en pinturas, obras de la arquitectura y esculturas conocidas si se analizan se encuentra un patr&oacute;n o un elemento en com&uacute;n y es que la mayor&iacute;a cumple con la proporci&oacute;n &aacute;urea.</p>
+<h2>&iquest;C&oacute;mo se aplica la proporci&oacute;n &aacute;urea?&nbsp;</h2>
+<p class="">La idea de utilizar la proporci&oacute;n &aacute;urea es que la obra de arte que vayas a crear tenga armon&iacute;a, est&eacute; bien proporcionada y, por supuesto, tenga un atractivo visual significativo.&nbsp;</p>
+<p class="">Pero del dicho al hecho, hay un largo tramo, as&iacute; que ahora te explicar&eacute; c&oacute;mo aplicar la proporci&oacute;n &aacute;urea a lo que sea que vayas a hacer, ya sea una foto, pintura o un dibujo de las ventanas en la fachada de una casa.</p>
+<ul data-rte-list="default">
+ <li><p class="">Lo primero que debemos hacer ser&aacute; partir de un rect&aacute;ngulo, por ejemplo, si vas a hacer una foto, la c&aacute;mara te dar&aacute; un rect&aacute;ngulo horizontal o vertical.</p></li>
+ <li><p class="">Ahora en ese rect&aacute;ngulo dibuja un cuadrado.</p></li>
+ <li><p class="">Este generar&aacute; un rect&aacute;ngulo m&aacute;s peque&ntilde;o, en el que deber&aacute;s crear otro cuadrado.</p></li>
+ <li><p class="">Y as&iacute; hasta conseguir dos cuadrados peque&ntilde;os.</p></li>
+</ul></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="600"
+    height="381"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6ebee2a6-e3dd-4be4-a1f3-352a5c5caafa/proporcion-aurea-1.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6ebee2a6-e3dd-4be4-a1f3-352a5c5caafa/proporcion-aurea-1.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6ebee2a6-e3dd-4be4-a1f3-352a5c5caafa/proporcion-aurea-1.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6ebee2a6-e3dd-4be4-a1f3-352a5c5caafa/proporcion-aurea-1.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6ebee2a6-e3dd-4be4-a1f3-352a5c5caafa/proporcion-aurea-1.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6ebee2a6-e3dd-4be4-a1f3-352a5c5caafa/proporcion-aurea-1.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6ebee2a6-e3dd-4be4-a1f3-352a5c5caafa/proporcion-aurea-1.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6ebee2a6-e3dd-4be4-a1f3-352a5c5caafa/proporcion-aurea-1.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Una vez tengas los cuadrados completos, debes trazar una curva que cruzar&aacute; los cuadrados de forma diagonal.</p>
+<p class="">Esta gu&iacute;a te permitir&aacute; establecer el punto en el que deber&aacute; ir el centro de inter&eacute;s de la fotograf&iacute;a y darle armon&iacute;a a la composici&oacute;n.</p>
+<p class="">A partir de ahora presta atenci&oacute;n a los objetos, naturaleza, obras y ver&aacute;s que la proporci&oacute;n &aacute;urea se encuentra en tu vida diaria y que debes saber aplicarla para conseguir resultados geniales.</p>
+<p class="">Y si quieres continuar leyendo sobre fotograf&iacute;a, revisa los art&iacute;culos que te dejo aqu&iacute; abajo.</p></div>
+
+
+
+
+<div class="amp-article-placeholder-block">
+  <a href="proporcion-aurea.html">
+    <em>
+      See this gallery in the original post
+    </em>
+  </a>
+</div>
+
+
+      <footer class="amp-article-footer">
+        <p class="amp-article-original-source">
+          Discover more from <a href="../aprender-fotografia.html" target="_blank"><em>KIKE ARNAIZ</em></a>
+        </p>
+      </footer>
+
+    </article>
+  </div>
+</body>
+
+<!-- Mirrored from www.kikearnaiz.com/aprender-fotografia/proporcion-aurea?format=amp by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Dec 2024 19:36:59 GMT -->
+</html>

@@ -1,0 +1,613 @@
+<!doctype html>
+<html amp>
+
+<!-- Mirrored from www.kikearnaiz.com/aprender-fotografia/herramientas-de-lightroom-para-editar-paisajes?format=amp by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Dec 2024 19:33:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <title>Herramientas de Lightroom para editar paisajes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+  <link rel="canonical" href="herramientas-de-lightroom-para-editar-paisajes.html">
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+  <style amp-custom>/* @group type scale */
+
+body {
+  font-size: 1em;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+p, ul, ol, blockquote {
+  margin-top: 1.45em;
+  margin-bottom: 1.45em;
+}
+
+blockquote {
+  font-style: italic;
+  color: #888;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1.414em;
+  border-left: 1px solid #eee;
+}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  color: #111;
+}
+
+h1 {
+  font-size: 2.074em;
+}
+
+h2 {
+  font-size: 1.728em;
+}
+
+h3 {
+  font-size: 1.44em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+blockquote,
+.amp-article-quote-block-source,
+.amp-article-original-source {
+  font-size: 0.833em;
+}
+
+.amp-article-image-caption p,
+.amp-article-video-caption p,
+.amp-article-audio-caption p,
+.amp-article-pubdate,
+.amp-article-author-name {
+  font-size: 0.694em;
+  letter-spacing: 0;
+}
+
+.tiny-font {
+  font-size: 0.579em;
+}
+
+/* @group end */
+
+/* @group general */
+
+body {
+  background: #f2f2f2;
+  font-family: "Avenir Next", Avenir, Roboto, "Segoe WP", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.0125em;
+  line-height: 1.45;
+  color: #666;
+}
+
+.website {
+  width: 100vw;
+  max-width: 768px;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+}
+
+.website-header {
+  background: #111;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2vh 4vw;
+  box-sizing: border-box;
+  max-height: 12vh;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 0.833em;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #f7f7f7;
+}
+
+.site-title a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+.amp-view-original {
+  font-size: 0.579em;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: right;
+  white-space: nowrap;
+  color: #666;
+}
+
+.amp-view-original a {
+  color: #666;
+  text-decoration: none;
+}
+
+/* @group end */
+
+/* @group amp article */
+
+.amp-article-content {
+  padding-bottom: 4vh;
+  box-sizing: border-box;
+}
+
+.amp-article-main-image {
+  max-width: 100%;
+}
+
+.amp-article-header {
+  margin-top: 4vh;
+}
+
+.amp-article-header,
+.amp-article-footer,
+.amp-article-html-block,
+.amp-article-markdown-block,
+.amp-article-image-caption,
+.amp-article-video-caption,
+.amp-article-quote-block,
+.amp-article-audio-block,
+.amp-article-embed-block.twitter-tweet {
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.amp-article-title {
+  letter-spacing: -0.0325em;
+}
+
+.amp-article-image-block,
+.amp-article-video-block {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.amp-article-pubdate,
+.amp-article-author-name,
+.amp-article-image-caption,
+.amp-article-video-caption,
+.amp-article-audio-caption,
+.amp-article-quote-block-source {
+  color: #999;
+}
+
+.amp-article-pubdate,
+.amp-article-author-name {
+  display: inline-block;
+  letter-spacing: 0.02em;
+}
+
+.amp-article-pubdate + .amp-article-author-name:before,
+.amp-article-audio-title + .amp-article-audio-author:before {
+  content: ' by ';
+}
+
+.amp-article-audio-title {
+  font-style: italic;
+}
+
+.amp-article-quote-block {
+  margin-top: 1.45em;
+  margin-bottom: 1.45em;
+}
+
+.amp-article-quote-block-text {
+  font-size: 1.2em;
+  font-style: italic;
+  line-height: 1.2;
+  color: #111;
+  margin: 0;
+  padding: 0;
+  border-left-width: 0px;
+}
+
+.amp-article-quote-block-source {
+  margin-top: 0.833em;
+  display: block;
+}
+
+.amp-article-audio-caption p {
+  margin-top: 0.5em;
+  display: block;
+}
+
+amp-img {
+  background-color: #f7f7f7;
+  max-width: 100%;
+}
+
+.amp-article-hr-block {
+  height: 1px;
+  border: none;
+  margin: 2.6em 0;
+  color: #eee;
+  background-color: #eee;
+}
+
+.amp-article-placeholder-block {
+  background-color: rgba(0, 0, 0, 0.02);
+  margin: 1.45em;
+  padding: 1.45em;
+  text-align: center;
+}
+
+/* @group end */
+</style>
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "headline": "Herramientas de Lightroom para editar paisajes",
+      "mainEntityOfPage": "https://www.kikearnaiz.com",
+      
+      "url": "https://www.kikearnaiz.com/aprender-fotografia/herramientas-de-lightroom-para-editar-paisajes",
+      "author": {
+        "@type": "Person",
+        "name": "Manuel Escalona"
+      },
+      "publisher": {
+        "@type": "Organization",
+        
+        "name": "KIKE ARNAIZ"
+      },
+      
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1716198146435-IIE02MZZ5QY3WKDGN8X3/fotos-paisaje-edicion-lr.jpg?format=750w",
+        "width": 600,
+        "height": 357
+      },
+      
+      "datePublished": "2024-05-20",
+      "dateModified": "2024-05-20"
+    }
+  </script>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  
+</head>
+<body>
+  <div id="page" class="website">
+
+    <header class="website-header">
+      <h1 class="site-title"><a href="../index.html" target="_blank">KIKE ARNAIZ</a></h1>
+      <small class="amp-view-original"><a href="herramientas-de-lightroom-para-editar-paisajes.html" target="_blank">View Original</a></small>
+    </header>
+
+    <article id="content" class="amp-article-content">
+      
+        <amp-img
+          class="amp-article-main-image"
+          layout="responsive"
+          width="600"
+          height="357"
+          src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1716198146435-IIE02MZZ5QY3WKDGN8X3/fotos-paisaje-edicion-lr.jpg?format=500w"
+          srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1716198146435-IIE02MZZ5QY3WKDGN8X3/fotos-paisaje-edicion-lr.jpg?format=2500w 2500w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1716198146435-IIE02MZZ5QY3WKDGN8X3/fotos-paisaje-edicion-lr.jpg?format=1500w 1500w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1716198146435-IIE02MZZ5QY3WKDGN8X3/fotos-paisaje-edicion-lr.jpg?format=1000w 1000w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1716198146435-IIE02MZZ5QY3WKDGN8X3/fotos-paisaje-edicion-lr.jpg?format=750w 750w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1716198146435-IIE02MZZ5QY3WKDGN8X3/fotos-paisaje-edicion-lr.jpg?format=500w 500w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1716198146435-IIE02MZZ5QY3WKDGN8X3/fotos-paisaje-edicion-lr.jpg?format=300w 300w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1716198146435-IIE02MZZ5QY3WKDGN8X3/fotos-paisaje-edicion-lr.jpg?format=100w 100w"
+          sizes="100vw">
+        </amp-img>
+      
+
+      <header class="amp-article-header">
+        <h1 class="amp-article-title">Herramientas de Lightroom para editar paisajes</h1>
+        <div class="amp-article-meta">
+          <time class="amp-article-pubdate" datetime="2024-05-20">
+            May 20, 2024
+          </time>
+          <small class="amp-article-author-name">Manuel Escalona</small>
+        </div>
+      </header>
+
+      
+
+
+
+<div class="amp-article-html-block"><p class="">Capturar el paisaje por medio de la fotograf&iacute;a no solo es una forma de arte, sino tambi&eacute;n de conectarse con la naturaleza y transmitir sensaciones. Sin embargo, suele pasar que las fotos, por buenas que sean, no logran transmitir eso que queremos expresar. Por ello siempre se le hace un procesado a las im&aacute;genes, por leve que sea, para as&iacute; lograr contar la historia de la fotograf&iacute;a de forma correcta.</p>
+<p class="">Por ello, en este art&iacute;culo te mostrar&eacute; cu&aacute;les son las herramientas de Lightroom que debes utilizar para retocar tus fotograf&iacute;as de paisaje y hacerlas a&uacute;n m&aacute;s geniales.</p>
+<h2>Recorte</h2></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="309"
+    height="236"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6845c1b7-d5ff-430c-970e-9a27038a873a/herramientas-lr.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6845c1b7-d5ff-430c-970e-9a27038a873a/herramientas-lr.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6845c1b7-d5ff-430c-970e-9a27038a873a/herramientas-lr.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6845c1b7-d5ff-430c-970e-9a27038a873a/herramientas-lr.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6845c1b7-d5ff-430c-970e-9a27038a873a/herramientas-lr.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6845c1b7-d5ff-430c-970e-9a27038a873a/herramientas-lr.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6845c1b7-d5ff-430c-970e-9a27038a873a/herramientas-lr.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6845c1b7-d5ff-430c-970e-9a27038a873a/herramientas-lr.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">La herramienta de recorte, es super&uacute;til para mejorar cualquier tipo de fotograf&iacute;a, incluyendo, la fotograf&iacute;a de paisaje.&nbsp;</p>
+<p class="">&iquest;C&oacute;mo es posible?&nbsp;</p>
+<p class="">Esto gracias a que la herramienta de recorte permite<strong> reencuadrar la foto original</strong>, ya sea nivelando el horizonte, pasando el encuadre de vertical a horizontal o viceversa o poniendo a los sujetos en los puntos de inter&eacute;s de la fotograf&iacute;a.</p>
+<p class="">Para ello podemos valernos de los cuadros que trae la misma herramienta y utilizar la <a href="regla-de-tercios.html" target="_blank"><span>regla de tercios</span></a>, de la cual puedes <strong>leer haciendo </strong><a href="regla-de-tercios.html" target="_blank"><span><strong>clic aqu&iacute;</strong></span></a>.</p>
+<p class="">As&iacute; con una herramienta tan b&aacute;sica como el recorte puedes mejorar una fotograf&iacute;a de paisaje en cuanto a encuadre y composici&oacute;n.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="600"
+    height="398"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/964a9942-99ea-43db-bbde-d84c6f0008bf/fotos-paisaje-lr.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/964a9942-99ea-43db-bbde-d84c6f0008bf/fotos-paisaje-lr.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/964a9942-99ea-43db-bbde-d84c6f0008bf/fotos-paisaje-lr.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/964a9942-99ea-43db-bbde-d84c6f0008bf/fotos-paisaje-lr.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/964a9942-99ea-43db-bbde-d84c6f0008bf/fotos-paisaje-lr.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/964a9942-99ea-43db-bbde-d84c6f0008bf/fotos-paisaje-lr.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/964a9942-99ea-43db-bbde-d84c6f0008bf/fotos-paisaje-lr.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/964a9942-99ea-43db-bbde-d84c6f0008bf/fotos-paisaje-lr.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><h2>Niveles</h2></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="287"
+    height="321"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/39768394-905f-4ea3-8a32-273510841158/niveles-lr.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/39768394-905f-4ea3-8a32-273510841158/niveles-lr.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/39768394-905f-4ea3-8a32-273510841158/niveles-lr.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/39768394-905f-4ea3-8a32-273510841158/niveles-lr.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/39768394-905f-4ea3-8a32-273510841158/niveles-lr.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/39768394-905f-4ea3-8a32-273510841158/niveles-lr.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/39768394-905f-4ea3-8a32-273510841158/niveles-lr.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/39768394-905f-4ea3-8a32-273510841158/niveles-lr.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Los niveles son unas de las herramientas m&aacute;s utilizadas a la hora de editar en Lightroom, esta funci&oacute;n nos permite ajustar los par&aacute;metros para conseguir una mejor exposici&oacute;n. Moviendo los tonos medios, el balance de blancos, luces altas y consiguiendo el punto negro y blanco de la fotograf&iacute;a.</p>
+<p class="">Haciendo esto de la forma correcta puedes lograr que la fotograf&iacute;a tenga un contraste &oacute;ptimo o visualmente m&aacute;s atractivo, pero sin estar sub o sobresaturado.</p>
+<p class="">Para ajustar los niveles podemos seguir este procedimiento, primero, <strong>ajustamos la exposici&oacute;n y contraste de los medios</strong>, luego las altas luces, seguimos con las sobras y ahora s&iacute;, ajustamos los niveles. &iquest;C&oacute;mo? De esta forma:</p>
+<p class="">Seleccionamos los blancos con el cursor, mantenemos <strong>pulsada la tecla Alt </strong>y movemos hacia la derecha hasta que veamos puntos del color contrario al fondo.</p>
+<p class="">Ahora hacemos el mismo procedimiento con los negros, pero ahora moviendo hacia la izquierda.</p>
+<p class="">Aqu&iacute; puedes apreciar el antes y el despu&eacute;s de esta fotograf&iacute;a aplicando el ajuste de niveles, la diferencia es enorme en cuanto a contrastes.</p>
+<h2>Curva de tonos</h2></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="311"
+    height="442"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/aaed8540-f960-4330-a4c1-556421a79b93/curva-lr.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/aaed8540-f960-4330-a4c1-556421a79b93/curva-lr.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/aaed8540-f960-4330-a4c1-556421a79b93/curva-lr.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/aaed8540-f960-4330-a4c1-556421a79b93/curva-lr.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/aaed8540-f960-4330-a4c1-556421a79b93/curva-lr.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/aaed8540-f960-4330-a4c1-556421a79b93/curva-lr.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/aaed8540-f960-4330-a4c1-556421a79b93/curva-lr.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/aaed8540-f960-4330-a4c1-556421a79b93/curva-lr.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Ahora hablemos de la curva de tonos, esta es una herramienta poderosa que permite <strong>ajustar los tonos y el contraste</strong> a trav&eacute;s de una curva, la cual podemos manipular a nuestro criterio para conseguir un buen contraste de colores en la fotograf&iacute;a.</p>
+<p class="">Para utilizarla solo debes ir al panel de ajustes y buscar la secci&oacute;n de <strong>Curva de tonos</strong>, el cual es un gr&aacute;fico con un histograma en el fondo y una l&iacute;nea diagonal que representa los tonos de la imagen.</p>
+<p class="">Al hacer clic puedes crear puntos sobre la l&iacute;nea y luego arrastrarlos para ajustar la forma de la curva y, por lo tanto, los tonos de la fotograf&iacute;a.</p>
+<p class="">Adem&aacute;s de ajustar la curva en su conjunto, tambi&eacute;n puedes ajustar los <strong>canales de color individuales RGB</strong> (rojo, verde y azul ) para obtener resultados m&aacute;s precisos.</p>
+<p class="">Tambi&eacute;n tiene un bot&oacute;n en el que puedes editar las curvas de forma b&aacute;sica o m&aacute;s completa, cuesti&oacute;n de lo que quieras conseguir.</p>
+<h2>Presencia</h2></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="308"
+    height="86"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/c835d32d-974f-4221-982f-d7bc13b27b91/presencia.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/c835d32d-974f-4221-982f-d7bc13b27b91/presencia.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/c835d32d-974f-4221-982f-d7bc13b27b91/presencia.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/c835d32d-974f-4221-982f-d7bc13b27b91/presencia.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/c835d32d-974f-4221-982f-d7bc13b27b91/presencia.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/c835d32d-974f-4221-982f-d7bc13b27b91/presencia.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/c835d32d-974f-4221-982f-d7bc13b27b91/presencia.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/c835d32d-974f-4221-982f-d7bc13b27b91/presencia.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">En el recuadro de presencia hay 3 ajustes diferentes, que son: <strong>claridad, intensidad y saturaci&oacute;n.</strong></p>
+<p class="">Cada uno de estos cumple una funci&oacute;n y podemos jugar con estos para mejorar nuestra fotograf&iacute;a.</p>
+<p class="">La claridad afecta de forma directa al contraste de los tonos medios, as&iacute; que si quieres aumentar o disminuir el contraste de la fotograf&iacute;a, puedes variar este par&aacute;metro. Si lo mueves hacia la derecha consigues<strong> mayor contraste y dureza</strong>, pero si lo mueves hacia la izquierda, <strong>pierde contraste y suavizas la imagen</strong>.</p>
+<p class="">Por otro lado, la intensidad y la saturaci&oacute;n va m&aacute;s ligada a los colores de la foto, la primera afecta a los colores en general, exceptuando los tonos de piel. La saturaci&oacute;n, por su parte, hace que los colores sean m&aacute;s intensos o tenues.</p>
+<h2>Filtro graduado</h2></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="312"
+    height="143"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/4ac78d30-eda4-4924-9ad0-414c1ec7bc16/filtro-graduado.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/4ac78d30-eda4-4924-9ad0-414c1ec7bc16/filtro-graduado.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/4ac78d30-eda4-4924-9ad0-414c1ec7bc16/filtro-graduado.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/4ac78d30-eda4-4924-9ad0-414c1ec7bc16/filtro-graduado.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/4ac78d30-eda4-4924-9ad0-414c1ec7bc16/filtro-graduado.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/4ac78d30-eda4-4924-9ad0-414c1ec7bc16/filtro-graduado.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/4ac78d30-eda4-4924-9ad0-414c1ec7bc16/filtro-graduado.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/4ac78d30-eda4-4924-9ad0-414c1ec7bc16/filtro-graduado.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Si quieres hacer un ajuste en tu fotograf&iacute;a de paisaje, debes usar el filtro graduado de Lightroom.</p>
+<p class="">Con el filtro graduado puedes cambiar la exposici&oacute;n, contraste, matiz, temperatura, luces, sombras, negros, blancos, claridad y saturaci&oacute;n de un &aacute;rea determinada. Por ejemplo, para darle mayor protagonismo al primer plano de un paisaje donde el cielo est&aacute; muy expuesto.</p>
+<h2>Pincel de ajuste K</h2></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="304"
+    height="82"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/ce222293-8824-4dec-b444-b275d55f729f/pincel-de-ajuste-k.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/ce222293-8824-4dec-b444-b275d55f729f/pincel-de-ajuste-k.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/ce222293-8824-4dec-b444-b275d55f729f/pincel-de-ajuste-k.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/ce222293-8824-4dec-b444-b275d55f729f/pincel-de-ajuste-k.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/ce222293-8824-4dec-b444-b275d55f729f/pincel-de-ajuste-k.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/ce222293-8824-4dec-b444-b275d55f729f/pincel-de-ajuste-k.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/ce222293-8824-4dec-b444-b275d55f729f/pincel-de-ajuste-k.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/ce222293-8824-4dec-b444-b275d55f729f/pincel-de-ajuste-k.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">El Pincel de ajuste K es una de mis herramientas favoritas para editar en Lightroom cualquier tipo de fotograf&iacute;a, incluyendo las de paisaje, gracias a que permite variar los par&aacute;metros de exposici&oacute;n en el &aacute;rea que queramos.</p>
+<p class="">Usar el pincel K es muy f&aacute;cil, solo debemos seleccionarlo, aumentar o disminuir su tama&ntilde;o y luego, pintar sobre la zona que queremos modificar.</p>
+<p class="">Tambi&eacute;n podemos pulsar la letra ‘‘o’’&nbsp; para hacer visible los trazos y saber sobre qu&eacute; estamos pintando. Para borrar los trazos, mantenemos pulsada la <strong>tecla alt</strong> y pasamos el pincel sobre los trazos que queremos eliminar.</p>
+<p class="">Una vez tengamos al &aacute;rea seleccionada, podemos modificar par&aacute;metros como la temperatura, matiz, exposici&oacute;n y dem&aacute;s.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="600"
+    height="400"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/d151fbae-a0ef-4e70-824a-bdc98bacebd8/fotos-paisaje-edicion.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/d151fbae-a0ef-4e70-824a-bdc98bacebd8/fotos-paisaje-edicion.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/d151fbae-a0ef-4e70-824a-bdc98bacebd8/fotos-paisaje-edicion.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/d151fbae-a0ef-4e70-824a-bdc98bacebd8/fotos-paisaje-edicion.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/d151fbae-a0ef-4e70-824a-bdc98bacebd8/fotos-paisaje-edicion.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/d151fbae-a0ef-4e70-824a-bdc98bacebd8/fotos-paisaje-edicion.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/d151fbae-a0ef-4e70-824a-bdc98bacebd8/fotos-paisaje-edicion.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/d151fbae-a0ef-4e70-824a-bdc98bacebd8/fotos-paisaje-edicion.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><h2>Filtro radial</h2></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="304"
+    height="82"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/73005f23-8450-4bfe-8e72-f1a053bce941/filtro-radial.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/73005f23-8450-4bfe-8e72-f1a053bce941/filtro-radial.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/73005f23-8450-4bfe-8e72-f1a053bce941/filtro-radial.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/73005f23-8450-4bfe-8e72-f1a053bce941/filtro-radial.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/73005f23-8450-4bfe-8e72-f1a053bce941/filtro-radial.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/73005f23-8450-4bfe-8e72-f1a053bce941/filtro-radial.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/73005f23-8450-4bfe-8e72-f1a053bce941/filtro-radial.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/73005f23-8450-4bfe-8e72-f1a053bce941/filtro-radial.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Funciona de forma similar a los dos anteriores, pero tiene forma de elipse o c&iacute;rculo, dependiendo de lo que necesites.</p>
+<p class="">Permite modificar los mismos par&aacute;metros que los filtros que mostr&eacute; antes, pero en este caso puedes jugar con la opci&oacute;n de invertir el filtro, es decir, modificar todo lo que est&aacute; fuera de la circunferencia o solo lo que est&aacute; dentro de esta.</p>
+<h2><strong>&iexcl;IMPORTANTE!</strong></h2>
+<p class="">Editar una fotograf&iacute;a no va de convertir una foto que no vale para nada en una obra de arte, sino de mejorar o exprimir al m&aacute;ximo el potencial de la fotograf&iacute;a en crudo, ya sea quitando o sumando elementos que ayuden a contar la historia de la foto. As&iacute; que ten en cuenta que para conseguir una buena foto con edici&oacute;n en Lightroom o Photoshop, debes partir de una buena base.</p>
+<p class="">Si quieres seguir una metodolog&iacute;a y un proceso paso a paso para editar tus fotograf&iacute;as como un profesional utilizando Photoshop y Lightroom, debes echarle un ojo a este curso:</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="260"
+    height="364"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-placeholder-block">
+  <a href="herramientas-de-lightroom-para-editar-paisajes.html">
+    <em>
+      See this gallery in the original post
+    </em>
+  </a>
+</div>
+
+
+      <footer class="amp-article-footer">
+        <p class="amp-article-original-source">
+          Discover more from <a href="../aprender-fotografia.html" target="_blank"><em>KIKE ARNAIZ</em></a>
+        </p>
+      </footer>
+
+    </article>
+  </div>
+</body>
+
+<!-- Mirrored from www.kikearnaiz.com/aprender-fotografia/herramientas-de-lightroom-para-editar-paisajes?format=amp by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Dec 2024 19:33:57 GMT -->
+</html>
