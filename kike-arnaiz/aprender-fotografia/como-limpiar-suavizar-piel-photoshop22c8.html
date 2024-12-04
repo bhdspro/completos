@@ -1,0 +1,817 @@
+<!doctype html>
+<html amp>
+
+<!-- Mirrored from www.kikearnaiz.com/aprender-fotografia/como-limpiar-suavizar-piel-photoshop?format=amp by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Dec 2024 19:33:48 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <title>Como limpiar y Suavizar piel en Photoshop </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+  <link rel="canonical" href="como-limpiar-suavizar-piel-photoshop.html">
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+  <style amp-custom>/* @group type scale */
+
+body {
+  font-size: 1em;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+p, ul, ol, blockquote {
+  margin-top: 1.45em;
+  margin-bottom: 1.45em;
+}
+
+blockquote {
+  font-style: italic;
+  color: #888;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1.414em;
+  border-left: 1px solid #eee;
+}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  color: #111;
+}
+
+h1 {
+  font-size: 2.074em;
+}
+
+h2 {
+  font-size: 1.728em;
+}
+
+h3 {
+  font-size: 1.44em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+blockquote,
+.amp-article-quote-block-source,
+.amp-article-original-source {
+  font-size: 0.833em;
+}
+
+.amp-article-image-caption p,
+.amp-article-video-caption p,
+.amp-article-audio-caption p,
+.amp-article-pubdate,
+.amp-article-author-name {
+  font-size: 0.694em;
+  letter-spacing: 0;
+}
+
+.tiny-font {
+  font-size: 0.579em;
+}
+
+/* @group end */
+
+/* @group general */
+
+body {
+  background: #f2f2f2;
+  font-family: "Avenir Next", Avenir, Roboto, "Segoe WP", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.0125em;
+  line-height: 1.45;
+  color: #666;
+}
+
+.website {
+  width: 100vw;
+  max-width: 768px;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+}
+
+.website-header {
+  background: #111;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2vh 4vw;
+  box-sizing: border-box;
+  max-height: 12vh;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 0.833em;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #f7f7f7;
+}
+
+.site-title a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+.amp-view-original {
+  font-size: 0.579em;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: right;
+  white-space: nowrap;
+  color: #666;
+}
+
+.amp-view-original a {
+  color: #666;
+  text-decoration: none;
+}
+
+/* @group end */
+
+/* @group amp article */
+
+.amp-article-content {
+  padding-bottom: 4vh;
+  box-sizing: border-box;
+}
+
+.amp-article-main-image {
+  max-width: 100%;
+}
+
+.amp-article-header {
+  margin-top: 4vh;
+}
+
+.amp-article-header,
+.amp-article-footer,
+.amp-article-html-block,
+.amp-article-markdown-block,
+.amp-article-image-caption,
+.amp-article-video-caption,
+.amp-article-quote-block,
+.amp-article-audio-block,
+.amp-article-embed-block.twitter-tweet {
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.amp-article-title {
+  letter-spacing: -0.0325em;
+}
+
+.amp-article-image-block,
+.amp-article-video-block {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.amp-article-pubdate,
+.amp-article-author-name,
+.amp-article-image-caption,
+.amp-article-video-caption,
+.amp-article-audio-caption,
+.amp-article-quote-block-source {
+  color: #999;
+}
+
+.amp-article-pubdate,
+.amp-article-author-name {
+  display: inline-block;
+  letter-spacing: 0.02em;
+}
+
+.amp-article-pubdate + .amp-article-author-name:before,
+.amp-article-audio-title + .amp-article-audio-author:before {
+  content: ' by ';
+}
+
+.amp-article-audio-title {
+  font-style: italic;
+}
+
+.amp-article-quote-block {
+  margin-top: 1.45em;
+  margin-bottom: 1.45em;
+}
+
+.amp-article-quote-block-text {
+  font-size: 1.2em;
+  font-style: italic;
+  line-height: 1.2;
+  color: #111;
+  margin: 0;
+  padding: 0;
+  border-left-width: 0px;
+}
+
+.amp-article-quote-block-source {
+  margin-top: 0.833em;
+  display: block;
+}
+
+.amp-article-audio-caption p {
+  margin-top: 0.5em;
+  display: block;
+}
+
+amp-img {
+  background-color: #f7f7f7;
+  max-width: 100%;
+}
+
+.amp-article-hr-block {
+  height: 1px;
+  border: none;
+  margin: 2.6em 0;
+  color: #eee;
+  background-color: #eee;
+}
+
+.amp-article-placeholder-block {
+  background-color: rgba(0, 0, 0, 0.02);
+  margin: 1.45em;
+  padding: 1.45em;
+  text-align: center;
+}
+
+/* @group end */
+</style>
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "headline": "Como limpiar y Suavizar piel en Photoshop ",
+      "mainEntityOfPage": "https://www.kikearnaiz.com",
+      
+      "url": "https://www.kikearnaiz.com/aprender-fotografia/como-limpiar-suavizar-piel-photoshop",
+      "author": {
+        "@type": "Person",
+        "name": "Manuel Escalona"
+      },
+      "publisher": {
+        "@type": "Organization",
+        
+        "name": "KIKE ARNAIZ"
+      },
+      
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1720288465078-M5LMXKZX1AW7PMZPQP4U/antes-y-despues-corrector-puntual.jpg?format=750w",
+        "width": 600,
+        "height": 441
+      },
+      
+      "datePublished": "2024-07-06",
+      "dateModified": "2024-07-06"
+    }
+  </script>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  
+</head>
+<body>
+  <div id="page" class="website">
+
+    <header class="website-header">
+      <h1 class="site-title"><a href="../index.html" target="_blank">KIKE ARNAIZ</a></h1>
+      <small class="amp-view-original"><a href="como-limpiar-suavizar-piel-photoshop.html" target="_blank">View Original</a></small>
+    </header>
+
+    <article id="content" class="amp-article-content">
+      
+        <amp-img
+          class="amp-article-main-image"
+          layout="responsive"
+          width="600"
+          height="441"
+          src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1720288465078-M5LMXKZX1AW7PMZPQP4U/antes-y-despues-corrector-puntual.jpg?format=500w"
+          srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1720288465078-M5LMXKZX1AW7PMZPQP4U/antes-y-despues-corrector-puntual.jpg?format=2500w 2500w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1720288465078-M5LMXKZX1AW7PMZPQP4U/antes-y-despues-corrector-puntual.jpg?format=1500w 1500w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1720288465078-M5LMXKZX1AW7PMZPQP4U/antes-y-despues-corrector-puntual.jpg?format=1000w 1000w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1720288465078-M5LMXKZX1AW7PMZPQP4U/antes-y-despues-corrector-puntual.jpg?format=750w 750w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1720288465078-M5LMXKZX1AW7PMZPQP4U/antes-y-despues-corrector-puntual.jpg?format=500w 500w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1720288465078-M5LMXKZX1AW7PMZPQP4U/antes-y-despues-corrector-puntual.jpg?format=300w 300w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1720288465078-M5LMXKZX1AW7PMZPQP4U/antes-y-despues-corrector-puntual.jpg?format=100w 100w"
+          sizes="100vw">
+        </amp-img>
+      
+
+      <header class="amp-article-header">
+        <h1 class="amp-article-title">Como limpiar y Suavizar piel en Photoshop </h1>
+        <div class="amp-article-meta">
+          <time class="amp-article-pubdate" datetime="2024-07-06">
+            July  6, 2024
+          </time>
+          <small class="amp-article-author-name">Manuel Escalona</small>
+        </div>
+      </header>
+
+      
+
+
+
+<div class="amp-article-html-block"><p class="">El retoque de piel es uno de los m&aacute;s comunes a la hora de editar retratos, ya sea limpiarla, quitarle arrugas, cicatrices, manchas, ojeras o hacerla m&aacute;s suave.</p>
+<p class="">Por ello en este art&iacute;culo te mostrar&eacute; diferentes t&eacute;cnicas que puedes aplicar para limpiar piel en Photoshop, as&iacute; que vamos directo al grano.</p>
+<h2>Limpiar la piel con pincel corrector puntual y parche</h2>
+<p class="">Esta t&eacute;cnica es bastante sencilla y f&aacute;cil de aplicar a tus fotograf&iacute;as, ya que solo basta con una herramienta y listo, mira aqu&iacute; c&oacute;mo se hace.</p>
+<p class="">Lo primero que debes hacer en cualquier fotograf&iacute;a que vayas a editar en Photoshop, es duplicar la capa fondo, para no editar sobre la imagen original. Para duplicar la capa podemos utilizar el <a href="https://kikearnaiz.squarespace.com/aprender-fotografia/atajos-photoshop" target="_blank">comando</a> <strong>ctrl + J </strong>(Cmd + J en Mac) o simplemente <strong>hacer clic derecho sobre la capa fondo</strong> y seleccionar la opci&oacute;n<strong> Duplicar capa</strong>.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="600"
+    height="266"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/079d595f-94c1-491e-a889-667f8622bc2d/duplicar-capa-.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/079d595f-94c1-491e-a889-667f8622bc2d/duplicar-capa-.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/079d595f-94c1-491e-a889-667f8622bc2d/duplicar-capa-.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/079d595f-94c1-491e-a889-667f8622bc2d/duplicar-capa-.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/079d595f-94c1-491e-a889-667f8622bc2d/duplicar-capa-.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/079d595f-94c1-491e-a889-667f8622bc2d/duplicar-capa-.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/079d595f-94c1-491e-a889-667f8622bc2d/duplicar-capa-.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/079d595f-94c1-491e-a889-667f8622bc2d/duplicar-capa-.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Una vez duplicada nos vamos al <strong>recuadro de herramientas</strong> y seleccionamos el <strong>pincel corrector puntual</strong> o la <strong>herramienta parche</strong>. Si no los ves, pulsa la letra J y se selecciona de forma autom&aacute;tica.&nbsp;</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="522"
+    height="378"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/8514d515-2c2a-4af8-a8cf-97bc0fa964aa/correr-puntual-y-parche.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/8514d515-2c2a-4af8-a8cf-97bc0fa964aa/correr-puntual-y-parche.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/8514d515-2c2a-4af8-a8cf-97bc0fa964aa/correr-puntual-y-parche.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/8514d515-2c2a-4af8-a8cf-97bc0fa964aa/correr-puntual-y-parche.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/8514d515-2c2a-4af8-a8cf-97bc0fa964aa/correr-puntual-y-parche.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/8514d515-2c2a-4af8-a8cf-97bc0fa964aa/correr-puntual-y-parche.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/8514d515-2c2a-4af8-a8cf-97bc0fa964aa/correr-puntual-y-parche.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/8514d515-2c2a-4af8-a8cf-97bc0fa964aa/correr-puntual-y-parche.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">El corrector puntual funciona pintando el &aacute;rea seleccionada <strong>seg&uacute;n el contenido</strong> que hay alrededor.</p>
+<p class="">Para aplicarlo, llevamos el cursor sobre el &aacute;rea que queremos limpiar y clicamos, hasta tapar la cicatriz, arruga o mancha que haya en la piel y listo. As&iacute; de f&aacute;cil es utilizar este m&eacute;todo para limpiar la piel en Photoshop.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="600"
+    height="441"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/57895cbf-d1e5-4a56-b602-4dc6a8a13e5d/antes-y-despues-corrector-puntual.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/57895cbf-d1e5-4a56-b602-4dc6a8a13e5d/antes-y-despues-corrector-puntual.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/57895cbf-d1e5-4a56-b602-4dc6a8a13e5d/antes-y-despues-corrector-puntual.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/57895cbf-d1e5-4a56-b602-4dc6a8a13e5d/antes-y-despues-corrector-puntual.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/57895cbf-d1e5-4a56-b602-4dc6a8a13e5d/antes-y-despues-corrector-puntual.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/57895cbf-d1e5-4a56-b602-4dc6a8a13e5d/antes-y-despues-corrector-puntual.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/57895cbf-d1e5-4a56-b602-4dc6a8a13e5d/antes-y-despues-corrector-puntual.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/57895cbf-d1e5-4a56-b602-4dc6a8a13e5d/antes-y-despues-corrector-puntual.jpg?format=100w 100w">
+  </amp-img>
+  
+  	<figcaption class="amp-article-image-caption"><p class="" style="white-space:pre-wrap;">Antes y después utilizando el corrector puntual </p></figcaption>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">La <strong>herramienta parche</strong> funciona de forma diferente, ya que debes seleccionar el <strong>&aacute;rea que quieres modificar</strong> y luego mover el parche hacia un &aacute;rea en buen estado.&nbsp;</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="600"
+    height="310"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f7aaacf8-7eba-44c9-9f95-cbab179ab0d4/parche.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f7aaacf8-7eba-44c9-9f95-cbab179ab0d4/parche.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f7aaacf8-7eba-44c9-9f95-cbab179ab0d4/parche.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f7aaacf8-7eba-44c9-9f95-cbab179ab0d4/parche.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f7aaacf8-7eba-44c9-9f95-cbab179ab0d4/parche.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f7aaacf8-7eba-44c9-9f95-cbab179ab0d4/parche.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f7aaacf8-7eba-44c9-9f95-cbab179ab0d4/parche.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f7aaacf8-7eba-44c9-9f95-cbab179ab0d4/parche.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Este proceso es m&aacute;s tardado, pero es m&aacute;s preciso, porque eres t&uacute; quien selecciona los parches. Yo lo utilizar&iacute;a para detalles peque&ntilde;os, puesto que el corrector puntual es m&aacute;s r&aacute;pido y f&aacute;cil de usar.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="600"
+    height="441"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/0dbea0f2-5c13-4faf-8272-231972afc48f/antes-y-despues-parche.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/0dbea0f2-5c13-4faf-8272-231972afc48f/antes-y-despues-parche.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/0dbea0f2-5c13-4faf-8272-231972afc48f/antes-y-despues-parche.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/0dbea0f2-5c13-4faf-8272-231972afc48f/antes-y-despues-parche.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/0dbea0f2-5c13-4faf-8272-231972afc48f/antes-y-despues-parche.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/0dbea0f2-5c13-4faf-8272-231972afc48f/antes-y-despues-parche.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/0dbea0f2-5c13-4faf-8272-231972afc48f/antes-y-despues-parche.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/0dbea0f2-5c13-4faf-8272-231972afc48f/antes-y-despues-parche.jpg?format=100w 100w">
+  </amp-img>
+  
+  	<figcaption class="amp-article-image-caption"><p class="" style="white-space:pre-wrap;">Antes y después utilizando la herramienta parche</p></figcaption>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><h2>Limpiar piel con tamp&oacute;n de clonar</h2>
+<p class="">Otra de las herramientas, que en particular, me parece una de las formas m&aacute;s sencillas de ocultar imperfecciones en la piel con Photoshop, es el tamp&oacute;n de clonar.</p>
+<p class="">Lo primero siempre para hacer este y cualquier otro tipo de modificaci&oacute;n en la fotograf&iacute;a es duplicar la capa fondo.</p>
+<p class="">Ahora s&iacute;, nos dirigimos al panel de herramientas y seleccionas el <strong>Tamp&oacute;n de clonar</strong> o solo <strong>pulsa la letra S</strong>, para hacerlo m&aacute;s r&aacute;pido.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="370"
+    height="380"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/497117e1-84e3-487c-8930-fdf31699b97d/tampon-clonar.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/497117e1-84e3-487c-8930-fdf31699b97d/tampon-clonar.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/497117e1-84e3-487c-8930-fdf31699b97d/tampon-clonar.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/497117e1-84e3-487c-8930-fdf31699b97d/tampon-clonar.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/497117e1-84e3-487c-8930-fdf31699b97d/tampon-clonar.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/497117e1-84e3-487c-8930-fdf31699b97d/tampon-clonar.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/497117e1-84e3-487c-8930-fdf31699b97d/tampon-clonar.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/497117e1-84e3-487c-8930-fdf31699b97d/tampon-clonar.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">En el panel superior saldr&aacute; un men&uacute; en el que puedes <strong>modificar el tama&ntilde;o</strong>, as&iacute; como la dureza del tamp&oacute;n. Esto es importante, puesto que se debe modificar dependiendo de lo que queramos ocultar o modificar.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="313"
+    height="365"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/b78984df-a48b-4169-93cf-e5c6582eac16/ajusta-tampon-clonar.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/b78984df-a48b-4169-93cf-e5c6582eac16/ajusta-tampon-clonar.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/b78984df-a48b-4169-93cf-e5c6582eac16/ajusta-tampon-clonar.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/b78984df-a48b-4169-93cf-e5c6582eac16/ajusta-tampon-clonar.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/b78984df-a48b-4169-93cf-e5c6582eac16/ajusta-tampon-clonar.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/b78984df-a48b-4169-93cf-e5c6582eac16/ajusta-tampon-clonar.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/b78984df-a48b-4169-93cf-e5c6582eac16/ajusta-tampon-clonar.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/b78984df-a48b-4169-93cf-e5c6582eac16/ajusta-tampon-clonar.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Una vez configurado el tamp&oacute;n, ve a la imagen y <strong>pulsando la tecla Alt</strong>, clica sobre un &aacute;rea de piel en buen estado y luego sobre la mancha que quieres tapar esta ves <strong>sin pulsar Alt</strong>.</p>
+<p class="">As&iacute; ya estar&iacute;as limpiando la piel con la herramienta tamp&oacute;n clonar.</p>
+<h2>Limpiar piel con separaci&oacute;n de frecuencias</h2>
+<p class="">El plato fuerte es la t&eacute;cnica de separaci&oacute;n de frecuencias, esta es una de las t&eacute;cnicas de retoque de piel m&aacute;s avanzadas, utilizada para eliminar imperfecciones.</p>
+<p class="">Consiste en editar por separado los colores y la textura de la fotograf&iacute;a, esto permite eliminar detalles en ambas frecuencias y conseguir resultados m&aacute;s prolijos.</p>
+<p class="">Para aplicarla sigue el paso a paso que te dejo a continuaci&oacute;n:</p>
+<p class=""><strong>Crea dos duplicados</strong> de la capa fondo, nombra a la capa<strong> inferior como capa de color</strong> y a la capa superior como <strong>capa de textura</strong>. Es importante este orden, ya que de lo contrario no funcionar&aacute;.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="380"
+    height="278"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/df2e628e-6967-4b0c-ac97-c8f8c10c9d76/1+separacion-de-frecuencia.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/df2e628e-6967-4b0c-ac97-c8f8c10c9d76/1+separacion-de-frecuencia.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/df2e628e-6967-4b0c-ac97-c8f8c10c9d76/1+separacion-de-frecuencia.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/df2e628e-6967-4b0c-ac97-c8f8c10c9d76/1+separacion-de-frecuencia.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/df2e628e-6967-4b0c-ac97-c8f8c10c9d76/1+separacion-de-frecuencia.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/df2e628e-6967-4b0c-ac97-c8f8c10c9d76/1+separacion-de-frecuencia.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/df2e628e-6967-4b0c-ac97-c8f8c10c9d76/1+separacion-de-frecuencia.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/df2e628e-6967-4b0c-ac97-c8f8c10c9d76/1+separacion-de-frecuencia.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class=""><strong>Desactiva la visualizaci&oacute;n de la capa textura</strong>, por ahora solo vamos a trabajar en la capa de color.</p>
+<p class="">Vamos al men&uacute;, seleccionamos<strong> filtro</strong> &gt; <strong>desenfoque</strong> &gt; <strong>desenfoque gaussiano</strong> y moveremos el cursor hasta conseguir cierto nivel de desenfoque en la foto. El desenfoque depender&aacute; del tama&ntilde;o de la foto, la idea es eliminar la textura de la capa, as&iacute; que toca hacerlo a oj&iacute;metro.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="600"
+    height="453"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/85b26d9d-11e7-4b77-af93-e3e33931a799/2+desenfoque-capa-color.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/85b26d9d-11e7-4b77-af93-e3e33931a799/2+desenfoque-capa-color.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/85b26d9d-11e7-4b77-af93-e3e33931a799/2+desenfoque-capa-color.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/85b26d9d-11e7-4b77-af93-e3e33931a799/2+desenfoque-capa-color.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/85b26d9d-11e7-4b77-af93-e3e33931a799/2+desenfoque-capa-color.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/85b26d9d-11e7-4b77-af93-e3e33931a799/2+desenfoque-capa-color.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/85b26d9d-11e7-4b77-af93-e3e33931a799/2+desenfoque-capa-color.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/85b26d9d-11e7-4b77-af93-e3e33931a799/2+desenfoque-capa-color.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Para este caso, <strong>utilic&eacute; un radio de 2 pixeles</strong>, tu puedes usar un rango mayor o menor dependiendo del tama&ntilde;o de la imagen.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="353"
+    height="352"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6fb7b55b-f4a7-4171-b1e0-59e396637313/3-desenfoque.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6fb7b55b-f4a7-4171-b1e0-59e396637313/3-desenfoque.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6fb7b55b-f4a7-4171-b1e0-59e396637313/3-desenfoque.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6fb7b55b-f4a7-4171-b1e0-59e396637313/3-desenfoque.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6fb7b55b-f4a7-4171-b1e0-59e396637313/3-desenfoque.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6fb7b55b-f4a7-4171-b1e0-59e396637313/3-desenfoque.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6fb7b55b-f4a7-4171-b1e0-59e396637313/3-desenfoque.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6fb7b55b-f4a7-4171-b1e0-59e396637313/3-desenfoque.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Activamos la visualizaci&oacute;n en la capa de textura y nos vamos al men&uacute;, seleccionamos <strong>Imagen</strong> &gt; <strong>Aplicar imagen</strong>…</p>
+<p class="">Se abrir&aacute; un recuadro en el que debemos cambiar algunos par&aacute;metros para que quede tal cual te muestro a continuaci&oacute;n:</p>
+<ul data-rte-list="default">
+ <li><p class="">Capa: Seleccionamos la capa <strong>Color</strong>.</p></li>
+ <li><p class="">Canal: RGB y <strong>marcamos la casilla de invertir</strong>.</p></li>
+ <li><p class="">Fusi&oacute;n: <strong>A&ntilde;adir</strong>.</p></li>
+ <li><p class="">Escala: <strong>2</strong></p></li>
+ <li><p class="">Todo lo dem&aacute;s lo dejamos tal cual viene por defecto, igual, gu&iacute;ate de la imagen de aqu&iacute; abajo.</p></li>
+</ul></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="600"
+    height="334"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/590d0ce7-4382-41c3-b7aa-da62c32f9a3b/aplicar-imagen.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/590d0ce7-4382-41c3-b7aa-da62c32f9a3b/aplicar-imagen.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/590d0ce7-4382-41c3-b7aa-da62c32f9a3b/aplicar-imagen.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/590d0ce7-4382-41c3-b7aa-da62c32f9a3b/aplicar-imagen.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/590d0ce7-4382-41c3-b7aa-da62c32f9a3b/aplicar-imagen.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/590d0ce7-4382-41c3-b7aa-da62c32f9a3b/aplicar-imagen.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/590d0ce7-4382-41c3-b7aa-da62c32f9a3b/aplicar-imagen.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/590d0ce7-4382-41c3-b7aa-da62c32f9a3b/aplicar-imagen.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Como resultado <strong>vamos a</strong> <strong>conseguir una imagen gris</strong> con algunas texturas, si est&aacute; de otro color entonces no lo est&aacute;s haciendo bien (a m&iacute; me ha pasado). Verifica que los par&aacute;metros que ingresaste son los correctos.&nbsp;</p>
+<p class="">Ahora vamos al panel de <strong>capas</strong> y en<strong> tipo de fusi&oacute;n</strong>, seleccionamos<strong> luz lineal</strong>.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="600"
+    height="347"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/eba5a754-4696-419f-b07d-6c3c3997a2dc/luz-lineal.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/eba5a754-4696-419f-b07d-6c3c3997a2dc/luz-lineal.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/eba5a754-4696-419f-b07d-6c3c3997a2dc/luz-lineal.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/eba5a754-4696-419f-b07d-6c3c3997a2dc/luz-lineal.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/eba5a754-4696-419f-b07d-6c3c3997a2dc/luz-lineal.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/eba5a754-4696-419f-b07d-6c3c3997a2dc/luz-lineal.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/eba5a754-4696-419f-b07d-6c3c3997a2dc/luz-lineal.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/eba5a754-4696-419f-b07d-6c3c3997a2dc/luz-lineal.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Una vez hecho todo esto, podemos usar herramientas como el tamp&oacute;n clonar o el pincel corrector puntual para editar sobre la capa de color o textura para eliminar imperfecciones, hasta conseguir el resultado deseado.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="600"
+    height="442"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/9e8f204f-a388-4772-9442-8a77d6649e85/foto-antes-y-despues.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/9e8f204f-a388-4772-9442-8a77d6649e85/foto-antes-y-despues.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/9e8f204f-a388-4772-9442-8a77d6649e85/foto-antes-y-despues.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/9e8f204f-a388-4772-9442-8a77d6649e85/foto-antes-y-despues.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/9e8f204f-a388-4772-9442-8a77d6649e85/foto-antes-y-despues.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/9e8f204f-a388-4772-9442-8a77d6649e85/foto-antes-y-despues.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/9e8f204f-a388-4772-9442-8a77d6649e85/foto-antes-y-despues.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/9e8f204f-a388-4772-9442-8a77d6649e85/foto-antes-y-despues.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Hay detalles que se eliminan en la capa color y otros, que solo se pueden eliminar en la de textura, as&iacute; que ojito con ello.</p>
+<h2>Suavizar la piel con Photoshop</h2>
+<p class="">Para dar un efecto de suavidad a la piel en Photoshop utilizaremos la t&eacute;cnica conocida como paso alto invertido.</p>
+<p class="">La dejo para el final porque primero debemos eliminar las imperfecciones, ya sea con alguna de las t&eacute;cnicas que te mostr&eacute; o cualquier otra.</p>
+<p class="">Para aplicarla debemos seguir el siguiente paso a paso:</p>
+<p class=""><strong>Duplicamos la capa</strong> sobre la cual estamos trabajando.</p>
+<p class="">Con la capa superior seleccionada, nos vamos al men&uacute; y seleccionamos <strong>filtro</strong> &gt; <strong>otro</strong> &gt; <strong>Paso alto</strong>.</p>
+<p class="">En esta ventana debemos seleccionar un n&uacute;mero que sea divisible entre 3, claro, dependiendo del tama&ntilde;o de la imagen, bien podr&iacute;a ser 12, 21 o 24, mayor o menor a estos valores.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="448"
+    height="400"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/3907d5bc-7ca9-4dd5-9047-b0c64fdba660/paso-alto.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/3907d5bc-7ca9-4dd5-9047-b0c64fdba660/paso-alto.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/3907d5bc-7ca9-4dd5-9047-b0c64fdba660/paso-alto.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/3907d5bc-7ca9-4dd5-9047-b0c64fdba660/paso-alto.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/3907d5bc-7ca9-4dd5-9047-b0c64fdba660/paso-alto.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/3907d5bc-7ca9-4dd5-9047-b0c64fdba660/paso-alto.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/3907d5bc-7ca9-4dd5-9047-b0c64fdba660/paso-alto.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/3907d5bc-7ca9-4dd5-9047-b0c64fdba660/paso-alto.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Ahora vamos a <strong>filtro</strong> &gt; <strong>Desenfocar</strong> &gt; <strong>desenfoque Gaussiano</strong>.</p>
+<p class="">Aqu&iacute; debemos seleccionar un valor que al multiplicarlo por 3, de como resultado el valor que elegimos en el paso alto. Si elegimos 12 en el paso alto, entonces debemos establecer 4.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="468"
+    height="374"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/785eea7f-3bdb-4b0d-b8bd-c57d34257f42/desenfoque-gau.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/785eea7f-3bdb-4b0d-b8bd-c57d34257f42/desenfoque-gau.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/785eea7f-3bdb-4b0d-b8bd-c57d34257f42/desenfoque-gau.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/785eea7f-3bdb-4b0d-b8bd-c57d34257f42/desenfoque-gau.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/785eea7f-3bdb-4b0d-b8bd-c57d34257f42/desenfoque-gau.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/785eea7f-3bdb-4b0d-b8bd-c57d34257f42/desenfoque-gau.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/785eea7f-3bdb-4b0d-b8bd-c57d34257f42/desenfoque-gau.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/785eea7f-3bdb-4b0d-b8bd-c57d34257f42/desenfoque-gau.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class=""><strong>Invertimos la capa</strong> utilizando el Ctrl + i o en Mac Cmd + i.</p>
+<p class="">Luego cambiamos el modo de fusi&oacute;n a <strong>luz intensa.</strong></p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="600"
+    height="353"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/03d8b0a2-e1de-416b-9f45-716de4b66ef7/luz-intensa.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/03d8b0a2-e1de-416b-9f45-716de4b66ef7/luz-intensa.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/03d8b0a2-e1de-416b-9f45-716de4b66ef7/luz-intensa.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/03d8b0a2-e1de-416b-9f45-716de4b66ef7/luz-intensa.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/03d8b0a2-e1de-416b-9f45-716de4b66ef7/luz-intensa.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/03d8b0a2-e1de-416b-9f45-716de4b66ef7/luz-intensa.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/03d8b0a2-e1de-416b-9f45-716de4b66ef7/luz-intensa.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/03d8b0a2-e1de-416b-9f45-716de4b66ef7/luz-intensa.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Por &uacute;ltimo,<strong> creamos una m&aacute;scara de capa pulsando alt</strong> y pintamos con el pincel blanco sobre las zonas que queramos suavizar.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="404"
+    height="184"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/61ab62c9-f74a-499b-852d-076f64905b35/mascara-de-cap.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/61ab62c9-f74a-499b-852d-076f64905b35/mascara-de-cap.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/61ab62c9-f74a-499b-852d-076f64905b35/mascara-de-cap.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/61ab62c9-f74a-499b-852d-076f64905b35/mascara-de-cap.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/61ab62c9-f74a-499b-852d-076f64905b35/mascara-de-cap.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/61ab62c9-f74a-499b-852d-076f64905b35/mascara-de-cap.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/61ab62c9-f74a-499b-852d-076f64905b35/mascara-de-cap.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/61ab62c9-f74a-499b-852d-076f64905b35/mascara-de-cap.jpg?format=100w 100w">
+  </amp-img>
+  
+  	<figcaption class="amp-article-image-caption"><p class="" style="white-space:pre-wrap;">Es importante pulsar ALT al crear la mascara de capa, de lo contrario no servirá.</p></figcaption>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Y as&iacute; de f&aacute;cil es suavizar la piel en Photoshop, el detalle que consigas depender&aacute; del tiempo y dedicaci&oacute;n que pongas aplicar el suavizado.&nbsp;</p>
+<h2>Domina Photoshop y Lightroom desde cero</h2>
+<p class="">Si quieres aprender a editar tus fotograf&iacute;as como un profesional y dominar por completo tanto Photoshop como Lightroom, entonces debes de echarle un ojo al <strong>curso de retoque fotogr&aacute;fico de Kike Arnaiz</strong>.&nbsp;</p>
+<p class="">Un <strong>curso completo</strong> en formato de video con m&aacute;s de 8 horas de clases, donde aprender&aacute;s a dominar ambos programas para sacarle todo el jugo en postproducci&oacute;n a tus fotos.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="260"
+    height="364"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-placeholder-block">
+  <a href="como-limpiar-suavizar-piel-photoshop.html">
+    <em>
+      See this gallery in the original post
+    </em>
+  </a>
+</div>
+
+
+      <footer class="amp-article-footer">
+        <p class="amp-article-original-source">
+          Discover more from <a href="../aprender-fotografia.html" target="_blank"><em>KIKE ARNAIZ</em></a>
+        </p>
+      </footer>
+
+    </article>
+  </div>
+</body>
+
+<!-- Mirrored from www.kikearnaiz.com/aprender-fotografia/como-limpiar-suavizar-piel-photoshop?format=amp by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Dec 2024 19:33:48 GMT -->
+</html>

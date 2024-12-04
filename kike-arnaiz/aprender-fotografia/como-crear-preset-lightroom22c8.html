@@ -1,0 +1,553 @@
+<!doctype html>
+<html amp>
+
+<!-- Mirrored from www.kikearnaiz.com/aprender-fotografia/como-crear-preset-lightroom?format=amp by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Dec 2024 19:33:48 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <title>Cómo crear presets de Lightroom</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+  <link rel="canonical" href="como-crear-preset-lightroom.html">
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+  <style amp-custom>/* @group type scale */
+
+body {
+  font-size: 1em;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+p, ul, ol, blockquote {
+  margin-top: 1.45em;
+  margin-bottom: 1.45em;
+}
+
+blockquote {
+  font-style: italic;
+  color: #888;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1.414em;
+  border-left: 1px solid #eee;
+}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  color: #111;
+}
+
+h1 {
+  font-size: 2.074em;
+}
+
+h2 {
+  font-size: 1.728em;
+}
+
+h3 {
+  font-size: 1.44em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+blockquote,
+.amp-article-quote-block-source,
+.amp-article-original-source {
+  font-size: 0.833em;
+}
+
+.amp-article-image-caption p,
+.amp-article-video-caption p,
+.amp-article-audio-caption p,
+.amp-article-pubdate,
+.amp-article-author-name {
+  font-size: 0.694em;
+  letter-spacing: 0;
+}
+
+.tiny-font {
+  font-size: 0.579em;
+}
+
+/* @group end */
+
+/* @group general */
+
+body {
+  background: #f2f2f2;
+  font-family: "Avenir Next", Avenir, Roboto, "Segoe WP", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.0125em;
+  line-height: 1.45;
+  color: #666;
+}
+
+.website {
+  width: 100vw;
+  max-width: 768px;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+}
+
+.website-header {
+  background: #111;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2vh 4vw;
+  box-sizing: border-box;
+  max-height: 12vh;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 0.833em;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #f7f7f7;
+}
+
+.site-title a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+.amp-view-original {
+  font-size: 0.579em;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: right;
+  white-space: nowrap;
+  color: #666;
+}
+
+.amp-view-original a {
+  color: #666;
+  text-decoration: none;
+}
+
+/* @group end */
+
+/* @group amp article */
+
+.amp-article-content {
+  padding-bottom: 4vh;
+  box-sizing: border-box;
+}
+
+.amp-article-main-image {
+  max-width: 100%;
+}
+
+.amp-article-header {
+  margin-top: 4vh;
+}
+
+.amp-article-header,
+.amp-article-footer,
+.amp-article-html-block,
+.amp-article-markdown-block,
+.amp-article-image-caption,
+.amp-article-video-caption,
+.amp-article-quote-block,
+.amp-article-audio-block,
+.amp-article-embed-block.twitter-tweet {
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.amp-article-title {
+  letter-spacing: -0.0325em;
+}
+
+.amp-article-image-block,
+.amp-article-video-block {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.amp-article-pubdate,
+.amp-article-author-name,
+.amp-article-image-caption,
+.amp-article-video-caption,
+.amp-article-audio-caption,
+.amp-article-quote-block-source {
+  color: #999;
+}
+
+.amp-article-pubdate,
+.amp-article-author-name {
+  display: inline-block;
+  letter-spacing: 0.02em;
+}
+
+.amp-article-pubdate + .amp-article-author-name:before,
+.amp-article-audio-title + .amp-article-audio-author:before {
+  content: ' by ';
+}
+
+.amp-article-audio-title {
+  font-style: italic;
+}
+
+.amp-article-quote-block {
+  margin-top: 1.45em;
+  margin-bottom: 1.45em;
+}
+
+.amp-article-quote-block-text {
+  font-size: 1.2em;
+  font-style: italic;
+  line-height: 1.2;
+  color: #111;
+  margin: 0;
+  padding: 0;
+  border-left-width: 0px;
+}
+
+.amp-article-quote-block-source {
+  margin-top: 0.833em;
+  display: block;
+}
+
+.amp-article-audio-caption p {
+  margin-top: 0.5em;
+  display: block;
+}
+
+amp-img {
+  background-color: #f7f7f7;
+  max-width: 100%;
+}
+
+.amp-article-hr-block {
+  height: 1px;
+  border: none;
+  margin: 2.6em 0;
+  color: #eee;
+  background-color: #eee;
+}
+
+.amp-article-placeholder-block {
+  background-color: rgba(0, 0, 0, 0.02);
+  margin: 1.45em;
+  padding: 1.45em;
+  text-align: center;
+}
+
+/* @group end */
+</style>
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "headline": "Cómo crear presets de Lightroom",
+      "mainEntityOfPage": "https://www.kikearnaiz.com",
+      
+      "url": "https://www.kikearnaiz.com/aprender-fotografia/como-crear-preset-lightroom",
+      "author": {
+        "@type": "Person",
+        "name": "Manuel Escalona"
+      },
+      "publisher": {
+        "@type": "Organization",
+        
+        "name": "KIKE ARNAIZ"
+      },
+      
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1722677195499-TH55JW9HWOH1YWNHAL9E/preset-lightroom-tutorial.jpg?format=750w",
+        "width": 600,
+        "height": 359
+      },
+      
+      "datePublished": "2024-08-03",
+      "dateModified": "2024-08-03"
+    }
+  </script>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  
+</head>
+<body>
+  <div id="page" class="website">
+
+    <header class="website-header">
+      <h1 class="site-title"><a href="../index.html" target="_blank">KIKE ARNAIZ</a></h1>
+      <small class="amp-view-original"><a href="como-crear-preset-lightroom.html" target="_blank">View Original</a></small>
+    </header>
+
+    <article id="content" class="amp-article-content">
+      
+        <amp-img
+          class="amp-article-main-image"
+          layout="responsive"
+          width="600"
+          height="359"
+          src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1722677195499-TH55JW9HWOH1YWNHAL9E/preset-lightroom-tutorial.jpg?format=500w"
+          srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1722677195499-TH55JW9HWOH1YWNHAL9E/preset-lightroom-tutorial.jpg?format=2500w 2500w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1722677195499-TH55JW9HWOH1YWNHAL9E/preset-lightroom-tutorial.jpg?format=1500w 1500w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1722677195499-TH55JW9HWOH1YWNHAL9E/preset-lightroom-tutorial.jpg?format=1000w 1000w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1722677195499-TH55JW9HWOH1YWNHAL9E/preset-lightroom-tutorial.jpg?format=750w 750w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1722677195499-TH55JW9HWOH1YWNHAL9E/preset-lightroom-tutorial.jpg?format=500w 500w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1722677195499-TH55JW9HWOH1YWNHAL9E/preset-lightroom-tutorial.jpg?format=300w 300w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1722677195499-TH55JW9HWOH1YWNHAL9E/preset-lightroom-tutorial.jpg?format=100w 100w"
+          sizes="100vw">
+        </amp-img>
+      
+
+      <header class="amp-article-header">
+        <h1 class="amp-article-title">Cómo crear presets de Lightroom</h1>
+        <div class="amp-article-meta">
+          <time class="amp-article-pubdate" datetime="2024-08-03">
+            August  3, 2024
+          </time>
+          <small class="amp-article-author-name">Manuel Escalona</small>
+        </div>
+      </header>
+
+      
+
+
+
+<div class="amp-article-html-block"><p class="">Los presets de Lightroom son una de las herramientas que facilitan la tarea de editar nuestras fotograf&iacute;as, puesto que hacen de revelar algo sencillo y ahorran un mont&oacute;n de tiempo.</p>
+<p class="">Adem&aacute;s de que aceleran el proceso de revelado, ayudan a darle coherencia a una tirada de fotograf&iacute;as.</p>
+<p class="">En este art&iacute;culo te mostrar&eacute; c&oacute;mo puedes comenzar a crear presets a tu gusto y aplicarlos sobre tus fotos. &iquest;Te interesa? Entonces contin&uacute;a leyendo</p>
+<h2>&iquest;Qu&eacute; son los presets de Lightroom?</h2>
+<p class="">Los presets <strong>son ajustes preestablecidos </strong>de luces, colores y sombras que se pueden aplicar sobre una fotograf&iacute;a con tan solo un clic.</p>
+<p class="">Aunque no siempre funcionan como lo esperamos, <strong>sirven como punto de partida</strong> para editar la fotograf&iacute;a haciendo peque&ntilde;os ajustes.&nbsp;</p>
+<p class="">La raz&oacute;n por la cual los presets <strong>a veces no hacen magia </strong>sobre nuestra foto, es porque estos se hacen en funci&oacute;n de una imagen, la cual tiene identidad propia, cierta luz, colores, temperatura. As&iacute; que al aplicar el preset sobre una foto con otras caracter&iacute;sticas lum&iacute;nicas, no dan el resultado que esperamos.</p>
+<p class="">Aprender a utilizarlos y sobre todo crearlos, te ayudar&aacute;n a:<strong>&nbsp;</strong></p>
+<ul data-rte-list="default">
+ <li><p class=""><strong>Darle una misma est&eacute;tica a tus fotograf&iacute;as.</strong></p></li>
+ <li><p class=""><strong>Mejorar tu flujo de trabajo.</strong></p></li>
+ <li><p class=""><strong>Ahorrar tiempo en la edici&oacute;n.</strong></p></li>
+</ul>
+<p class="">Se podr&iacute;an comparar con los filtros que puedes aplicar en Instagram o cualquier aplicaci&oacute;n de edici&oacute;n b&aacute;sica, pero estos tienen la particularidad de que se pueden modificar para conseguir el resultado deseado.</p>
+<h2>C&oacute;mo crear un preset de Lightroom</h2>
+<p class="">Para este art&iacute;culo crear&eacute; un preset en blanco y negro, que me permitir&aacute; resaltar al sujeto y evitar que el ojo se distraiga con los colores. Aunque t&uacute; puedes hacerlo de cualquier otro tono.</p>
+<p class="">Lo primero que debemos hacer ser&aacute; <strong>abrir una fotograf&iacute;a en Lightroom</strong> sobre la cual haremos un retoque b&aacute;sico de colores, sombras y dem&aacute;s.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="348"
+    height="444"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/accb6eda-faf1-4148-9893-883b1e164128/foto-iguana.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/accb6eda-faf1-4148-9893-883b1e164128/foto-iguana.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/accb6eda-faf1-4148-9893-883b1e164128/foto-iguana.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/accb6eda-faf1-4148-9893-883b1e164128/foto-iguana.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/accb6eda-faf1-4148-9893-883b1e164128/foto-iguana.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/accb6eda-faf1-4148-9893-883b1e164128/foto-iguana.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/accb6eda-faf1-4148-9893-883b1e164128/foto-iguana.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/accb6eda-faf1-4148-9893-883b1e164128/foto-iguana.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">En este caso yo utilizar&eacute; esta foto de una iguana, como ves hay diferentes tonos de verde y el blanco y negro me viene genial para enfocar la mirada en la iguana.</p>
+<p class="">Una vez abierta la foto, voy al panel y comienzo con la edici&oacute;n.</p>
+<h3>Haz el revelado de una foto</h3></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="293"
+    height="273"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/68e40b6f-3d51-405d-9c77-52347d971545/retoques-foto-preset.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/68e40b6f-3d51-405d-9c77-52347d971545/retoques-foto-preset.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/68e40b6f-3d51-405d-9c77-52347d971545/retoques-foto-preset.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/68e40b6f-3d51-405d-9c77-52347d971545/retoques-foto-preset.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/68e40b6f-3d51-405d-9c77-52347d971545/retoques-foto-preset.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/68e40b6f-3d51-405d-9c77-52347d971545/retoques-foto-preset.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/68e40b6f-3d51-405d-9c77-52347d971545/retoques-foto-preset.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/68e40b6f-3d51-405d-9c77-52347d971545/retoques-foto-preset.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><ul data-rte-list="default">
+ <li><p class="">En tratamiento selecciono la opci&oacute;n de blanco y negro.</p></li>
+ <li><p class="">Bajo las altas luces.</p></li>
+ <li><p class="">Subo un poco las sombras.</p></li>
+ <li><p class="">Tambi&eacute;n subo los blancos para crear un contraste.</p></li>
+ <li><p class="">Bajo un poco los negros.</p></li>
+ <li><p class="">Muevo un poco la curva de tonos.</p></li>
+ <li><p class="">Y por &uacute;ltimo, modifico los colores en el recuadro del blanco y negro, en este caso los colores que predominan en la foto original son el verde, amarillo y aguamarina.</p></li>
+</ul>
+<p class=""><strong>Toma nota:</strong> En la edici&oacute;n solo deber&aacute;s modificar colores, no modifiques ni corrijas el lente, no recortes, no apliques filtros. Todos estos se guardar&aacute;n en el preset y no los queremos.</p>
+<h3>Guarda el preset</h3>
+<p class="">Ahora que tenemos la foto revelada, debemos guardar los ajustes hicimos en un preset, para ello nos vamos al panel izquierdo.</p>
+<p class="">Clicamos en el s&iacute;mbolo de m&aacute;s de la opci&oacute;n Ajustes preestablecidos.</p>
+<p class="">Aparecer&aacute;n varias opciones, pero nosotros vamos a seleccionar: <strong>Crear ajuste preestablecido</strong>.</p>
+<p class="">Se abrir&aacute; una nueva ventana en la que aparecer&aacute;n los diferentes par&aacute;metros que se van a guardar en el preset. Marca la mayor&iacute;a, <strong>excepto </strong>los de<em> Correcciones de lente y Transformar.</em></p>
+<p class="">As&iacute; mismo agrega un nombre al preset y haz un grupo para tenerlo ordenado. Para este art&iacute;culo lo nombr&eacute;: Preset blanco y negro tutorial.</p>
+<p class="">Hecho esto, pulsamos Crear, as&iacute; estar&iacute;a listo nuestro preset de Lightroom.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="600"
+    height="472"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/54ced491-ad79-4cb8-bdd5-403c9e48f8be/guardar-preset.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/54ced491-ad79-4cb8-bdd5-403c9e48f8be/guardar-preset.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/54ced491-ad79-4cb8-bdd5-403c9e48f8be/guardar-preset.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/54ced491-ad79-4cb8-bdd5-403c9e48f8be/guardar-preset.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/54ced491-ad79-4cb8-bdd5-403c9e48f8be/guardar-preset.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/54ced491-ad79-4cb8-bdd5-403c9e48f8be/guardar-preset.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/54ced491-ad79-4cb8-bdd5-403c9e48f8be/guardar-preset.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/54ced491-ad79-4cb8-bdd5-403c9e48f8be/guardar-preset.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Si pulsamos clic derecho sobre el preset, nos aparecer&aacute;n varias opciones, como:&nbsp;</p>
+<ul data-rte-list="default">
+ <li><p class="">A&ntilde;adir a favoritos,&nbsp;</p></li>
+ <li><p class="">Aplicar en la importaci&oacute;n,&nbsp;</p></li>
+ <li><p class="">Cambiar nombre&nbsp;</p></li>
+ <li><p class="">Mover</p></li>
+ <li><p class="">Actualizar ajustes (en caso de que quieras modificarlo)</p></li>
+ <li><p class="">Mostrar en el navegador</p></li>
+ <li><p class="">Eliminar.</p></li>
+</ul>
+<h2>C&oacute;mo aplicar los presets de Lightroom</h2>
+<p class="">Ahora para aplicar el preset en cualquier fotograf&iacute;a solo debemos de:</p>
+<ul data-rte-list="default">
+ <li><p class="">Ir hasta el panel lateral izquierdo de ajustes preestablecidos.</p></li>
+ <li><p class="">Darle en la flecha abajo que aparece a la izquierda para desplegar los presets que tengamos cargados.</p></li>
+ <li><p class="">Ahora nos dirigimos al preset, en este caso,<strong> Preset blanco y negro</strong>, seleccionamos y listo.</p></li>
+ <li><p class="">As&iacute; quedar&iacute;a listo el presente sobre nuestra fotograf&iacute;a, si te gusta como se ve a la primera, genial, pero siempre puedes modificarlo para que se ajuste a la luz de la foto que est&aacute;s revelando.</p></li>
+</ul>
+<h2>C&oacute;mo guardar el preset para cargarlo en otro pc</h2>
+<p class="">Este proceso es bastante sencillo, solo debes seguir los siguientes pasos:</p>
+<ul data-rte-list="default">
+ <li><p class="">Ve a la ventana lateral izquierda de presets.</p></li>
+ <li><p class="">Hacemos clic derecho sobre el preset que ya creamos.</p></li>
+ <li><p class="">Seleccionamos la opci&oacute;n Exportar.</p></li>
+ <li><p class="">Nombramos el preset o podemos dejarle el mismo nombre.</p></li>
+ <li><p class="">Seleccionamos la ubicaci&oacute;n donde queremos guardar el archivo.</p></li>
+ <li><p class="">Clicamos en el bot&oacute;n guardar.</p></li>
+</ul>
+<p class="">Y listo, ya tendr&iacute;amos el archivo listo para enviarlo a cualquier persona por cualquier medio.&nbsp;</p>
+<h2>Agregar un preset en Lightroom</h2>
+<p class="">En caso de que no sepas c&oacute;mo cargar un preset en Lightroom, luego de que lo hayas enviado a otra computadora, aqu&iacute; te dejo la explicaci&oacute;n:</p>
+<ul data-rte-list="default">
+ <li><p class="">Ve al panel de ajustes preestablecidos de Lightroom.</p></li>
+ <li><p class="">Dale clic al s&iacute;mbolo +.</p></li>
+ <li><p class="">Selecciona la opci&oacute;n Importar ajustes preestablecidos…</p></li>
+ <li><p class="">Se abrir&aacute; una ventana de explorador de archivos, ve a la ubicaci&oacute;n en la cual se encuentra el preset y selecci&oacute;nalo.</p></li>
+ <li><p class="">Una vez seleccionado, solo debes dar clic en importar y listo.</p></li>
+</ul>
+<h2>Agregar un preset en Lightroom mobile Android</h2>
+<p class="">Si tienes Lightroom actualizado y pagas licencia mes a mes, puedes utilizar los presets que crees para el ordenador en tu m&oacute;vil.</p>
+<p class="">Pero si no tienes la versi&oacute;n de paga o no actualizaste m&aacute;s tu Lightroom y a&uacute;n as&iacute; quieres usar un preset en el m&oacute;vil entonces debes hacer lo siguiente:</p>
+<ul data-rte-list="default">
+ <li><p class="">Ve a Lightroom (en la versi&oacute;n de escritorio)</p></li>
+ <li><p class="">Dale clic derecho y exportar.</p></li>
+ <li><p class="">Se abrir&aacute; la ventana de exportaci&oacute;n.</p></li>
+ <li><p class="">Elige donde quieres guardar el archivo.</p></li>
+ <li><p class="">Baja hasta la pesta&ntilde;a de <strong>Ajuste de Archivo</strong> y selecciona <strong>Formato de imagen:</strong> DNG.</p></li>
+ <li><p class="">Exp&oacute;rtala.</p></li>
+</ul></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="600"
+    height="333"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f0245515-ce3e-4d34-9d22-d192ab1450a8/guardar-en-dng.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f0245515-ce3e-4d34-9d22-d192ab1450a8/guardar-en-dng.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f0245515-ce3e-4d34-9d22-d192ab1450a8/guardar-en-dng.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f0245515-ce3e-4d34-9d22-d192ab1450a8/guardar-en-dng.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f0245515-ce3e-4d34-9d22-d192ab1450a8/guardar-en-dng.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f0245515-ce3e-4d34-9d22-d192ab1450a8/guardar-en-dng.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f0245515-ce3e-4d34-9d22-d192ab1450a8/guardar-en-dng.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f0245515-ce3e-4d34-9d22-d192ab1450a8/guardar-en-dng.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Una vez exportada, env&iacute;a el archivo al m&oacute;vil y abre Lightroom mobile.</p>
+<ul data-rte-list="default">
+ <li><p class="">Importa la fotograf&iacute;a que est&aacute; en formato DNG.</p></li>
+ <li><p class="">Dale clic en los tres puntos que aparecen en la parte superior.</p></li>
+ <li><p class="">Copia los ajustes de la fotograf&iacute;a.</p></li>
+ <li><p class="">Ve a la fotograf&iacute;a que quieras editar y pega los ajustes.</p></li>
+</ul>
+<p class="">As&iacute; ya puedes comenzar a crear y exportar tus presets a cualquiera de tus dispositivos.</p>
+<p class="">Si te gust&oacute; este art&iacute;culo y quieres seguir aprendiendo m&aacute;s sobre fotograf&iacute;a y edici&oacute;n, te invito a que le eches un ojo al <a href="../curso-de-retoque-digital-lightroom-photoshop.html" target="_blank"><strong>curso de retoque fotogr&aacute;fico</strong></a>, donde aprender&aacute;s a dominar de una vez por todas tanto Photoshop como Lightroom.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="260"
+    height="364"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-placeholder-block">
+  <a href="como-crear-preset-lightroom.html">
+    <em>
+      See this gallery in the original post
+    </em>
+  </a>
+</div>
+
+
+      <footer class="amp-article-footer">
+        <p class="amp-article-original-source">
+          Discover more from <a href="../aprender-fotografia.html" target="_blank"><em>KIKE ARNAIZ</em></a>
+        </p>
+      </footer>
+
+    </article>
+  </div>
+</body>
+
+<!-- Mirrored from www.kikearnaiz.com/aprender-fotografia/como-crear-preset-lightroom?format=amp by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Dec 2024 19:33:48 GMT -->
+</html>

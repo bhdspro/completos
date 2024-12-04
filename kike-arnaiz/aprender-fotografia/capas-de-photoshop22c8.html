@@ -1,0 +1,713 @@
+<!doctype html>
+<html amp>
+
+<!-- Mirrored from www.kikearnaiz.com/aprender-fotografia/capas-de-photoshop?format=amp by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Dec 2024 19:34:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <title>¿Qué son las Capas de Photoshop? ¿Cómo funcionan?</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+  <link rel="canonical" href="capas-de-photoshop.html">
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+  <style amp-custom>/* @group type scale */
+
+body {
+  font-size: 1em;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+p, ul, ol, blockquote {
+  margin-top: 1.45em;
+  margin-bottom: 1.45em;
+}
+
+blockquote {
+  font-style: italic;
+  color: #888;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1.414em;
+  border-left: 1px solid #eee;
+}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  color: #111;
+}
+
+h1 {
+  font-size: 2.074em;
+}
+
+h2 {
+  font-size: 1.728em;
+}
+
+h3 {
+  font-size: 1.44em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+blockquote,
+.amp-article-quote-block-source,
+.amp-article-original-source {
+  font-size: 0.833em;
+}
+
+.amp-article-image-caption p,
+.amp-article-video-caption p,
+.amp-article-audio-caption p,
+.amp-article-pubdate,
+.amp-article-author-name {
+  font-size: 0.694em;
+  letter-spacing: 0;
+}
+
+.tiny-font {
+  font-size: 0.579em;
+}
+
+/* @group end */
+
+/* @group general */
+
+body {
+  background: #f2f2f2;
+  font-family: "Avenir Next", Avenir, Roboto, "Segoe WP", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.0125em;
+  line-height: 1.45;
+  color: #666;
+}
+
+.website {
+  width: 100vw;
+  max-width: 768px;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+}
+
+.website-header {
+  background: #111;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2vh 4vw;
+  box-sizing: border-box;
+  max-height: 12vh;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 0.833em;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #f7f7f7;
+}
+
+.site-title a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+.amp-view-original {
+  font-size: 0.579em;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: right;
+  white-space: nowrap;
+  color: #666;
+}
+
+.amp-view-original a {
+  color: #666;
+  text-decoration: none;
+}
+
+/* @group end */
+
+/* @group amp article */
+
+.amp-article-content {
+  padding-bottom: 4vh;
+  box-sizing: border-box;
+}
+
+.amp-article-main-image {
+  max-width: 100%;
+}
+
+.amp-article-header {
+  margin-top: 4vh;
+}
+
+.amp-article-header,
+.amp-article-footer,
+.amp-article-html-block,
+.amp-article-markdown-block,
+.amp-article-image-caption,
+.amp-article-video-caption,
+.amp-article-quote-block,
+.amp-article-audio-block,
+.amp-article-embed-block.twitter-tweet {
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.amp-article-title {
+  letter-spacing: -0.0325em;
+}
+
+.amp-article-image-block,
+.amp-article-video-block {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.amp-article-pubdate,
+.amp-article-author-name,
+.amp-article-image-caption,
+.amp-article-video-caption,
+.amp-article-audio-caption,
+.amp-article-quote-block-source {
+  color: #999;
+}
+
+.amp-article-pubdate,
+.amp-article-author-name {
+  display: inline-block;
+  letter-spacing: 0.02em;
+}
+
+.amp-article-pubdate + .amp-article-author-name:before,
+.amp-article-audio-title + .amp-article-audio-author:before {
+  content: ' by ';
+}
+
+.amp-article-audio-title {
+  font-style: italic;
+}
+
+.amp-article-quote-block {
+  margin-top: 1.45em;
+  margin-bottom: 1.45em;
+}
+
+.amp-article-quote-block-text {
+  font-size: 1.2em;
+  font-style: italic;
+  line-height: 1.2;
+  color: #111;
+  margin: 0;
+  padding: 0;
+  border-left-width: 0px;
+}
+
+.amp-article-quote-block-source {
+  margin-top: 0.833em;
+  display: block;
+}
+
+.amp-article-audio-caption p {
+  margin-top: 0.5em;
+  display: block;
+}
+
+amp-img {
+  background-color: #f7f7f7;
+  max-width: 100%;
+}
+
+.amp-article-hr-block {
+  height: 1px;
+  border: none;
+  margin: 2.6em 0;
+  color: #eee;
+  background-color: #eee;
+}
+
+.amp-article-placeholder-block {
+  background-color: rgba(0, 0, 0, 0.02);
+  margin: 1.45em;
+  padding: 1.45em;
+  text-align: center;
+}
+
+/* @group end */
+</style>
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "headline": "¿Qué son las Capas de Photoshop? ¿Cómo funcionan?",
+      "mainEntityOfPage": "https://www.kikearnaiz.com",
+      
+      "url": "https://www.kikearnaiz.com/aprender-fotografia/capas-de-photoshop",
+      "author": {
+        "@type": "Person",
+        "name": "Manuel Escalona"
+      },
+      "publisher": {
+        "@type": "Organization",
+        
+        "name": "KIKE ARNAIZ"
+      },
+      
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1710206585352-90WRZLWAVD18MFV6EUKF/capas-de-photoshop.jpg?format=750w",
+        "width": 600,
+        "height": 441
+      },
+      
+      "datePublished": "2024-03-11",
+      "dateModified": "2024-03-11"
+    }
+  </script>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  
+</head>
+<body>
+  <div id="page" class="website">
+
+    <header class="website-header">
+      <h1 class="site-title"><a href="../index.html" target="_blank">KIKE ARNAIZ</a></h1>
+      <small class="amp-view-original"><a href="capas-de-photoshop.html" target="_blank">View Original</a></small>
+    </header>
+
+    <article id="content" class="amp-article-content">
+      
+        <amp-img
+          class="amp-article-main-image"
+          layout="responsive"
+          width="600"
+          height="441"
+          src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1710206585352-90WRZLWAVD18MFV6EUKF/capas-de-photoshop.jpg?format=500w"
+          srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1710206585352-90WRZLWAVD18MFV6EUKF/capas-de-photoshop.jpg?format=2500w 2500w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1710206585352-90WRZLWAVD18MFV6EUKF/capas-de-photoshop.jpg?format=1500w 1500w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1710206585352-90WRZLWAVD18MFV6EUKF/capas-de-photoshop.jpg?format=1000w 1000w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1710206585352-90WRZLWAVD18MFV6EUKF/capas-de-photoshop.jpg?format=750w 750w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1710206585352-90WRZLWAVD18MFV6EUKF/capas-de-photoshop.jpg?format=500w 500w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1710206585352-90WRZLWAVD18MFV6EUKF/capas-de-photoshop.jpg?format=300w 300w,
+          https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1710206585352-90WRZLWAVD18MFV6EUKF/capas-de-photoshop.jpg?format=100w 100w"
+          sizes="100vw">
+        </amp-img>
+      
+
+      <header class="amp-article-header">
+        <h1 class="amp-article-title">¿Qué son las Capas de Photoshop? ¿Cómo funcionan?</h1>
+        <div class="amp-article-meta">
+          <time class="amp-article-pubdate" datetime="2024-03-11">
+            March 11, 2024
+          </time>
+          <small class="amp-article-author-name">Manuel Escalona</small>
+        </div>
+      </header>
+
+      
+
+
+
+<div class="amp-article-html-block"><p class="">Las capas de Photoshop son una de las muchas caracter&iacute;sticas que ofrece este programa, que debes de conocer y dominar para editar tus fotograf&iacute;as o hacer dise&ntilde;os.</p>
+<p class="">Estas permiten <strong>trabajar de forma ordenada y no destructiva</strong> sobre tus fotograf&iacute;as, puesto que puedes hacer diferentes tipos de ediciones sobre cada capa sin da&ntilde;ar la imagen original.</p>
+<p class="">Si quieres aprender m&aacute;s sobre estas, te invito a que contin&uacute;es leyendo.</p>
+<h2>&iquest;Qu&eacute; es una capa de Photoshop?</h2>
+<p class="">Son similares al collage que hac&iacute;amos de peque&ntilde;os en la escuela, hecho con recortes pegados uno sobre otro para conseguir una imagen final.</p>
+<p class="">La diferencia entre el collage y las capas de Photoshop, es que estas &uacute;ltimas <strong>se pueden editar</strong> o cambiar caracter&iacute;sticas de cada una de estas sin da&ntilde;ar la imagen original, consiguiendo una composici&oacute;n tal cual la hemos pensado.</p>
+<p class="">Cada recorte, cuadro de texto o imagen que abrimos en nuestro proyecto de Photoshop <strong>se carga como una nueva capa</strong>.</p>
+<p class="">Las capas son visibles seg&uacute;n el orden en el que se encuentren, por ello, el ejemplo del collage queda muy bien aqu&iacute;.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="500"
+    height="319"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1069e563-ca8d-4404-a28f-4604b5ac18b1/ejemplo-collage.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1069e563-ca8d-4404-a28f-4604b5ac18b1/ejemplo-collage.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1069e563-ca8d-4404-a28f-4604b5ac18b1/ejemplo-collage.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1069e563-ca8d-4404-a28f-4604b5ac18b1/ejemplo-collage.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1069e563-ca8d-4404-a28f-4604b5ac18b1/ejemplo-collage.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1069e563-ca8d-4404-a28f-4604b5ac18b1/ejemplo-collage.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1069e563-ca8d-4404-a28f-4604b5ac18b1/ejemplo-collage.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1069e563-ca8d-4404-a28f-4604b5ac18b1/ejemplo-collage.jpg?format=100w 100w">
+  </amp-img>
+  
+  	<figcaption class="amp-article-image-caption"><p class="" style="white-space:pre-wrap;">Como ves en la imagen, cada recorte queda arriba del otro, funcionando de la misma forma que las capas de Photoshop.</p></figcaption>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><h2>Panel de capas</h2>
+<p class="">Es el lugar donde se encuentran las capas con las que estamos trabajando, normalmente aparece en la parte derecha de la pantalla, pero en ocasiones debes ir hasta la secci&oacute;n <strong>Ventana</strong> y seleccionar la opci&oacute;n <strong>Capas</strong> para activar el panel, esto tambi&eacute;n puedes hacerlo con la tecla F7.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="450"
+    height="398"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/86fcdefa-deaf-4256-9cd4-b6464d5bd7bd/activar-panel-de-capas.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/86fcdefa-deaf-4256-9cd4-b6464d5bd7bd/activar-panel-de-capas.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/86fcdefa-deaf-4256-9cd4-b6464d5bd7bd/activar-panel-de-capas.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/86fcdefa-deaf-4256-9cd4-b6464d5bd7bd/activar-panel-de-capas.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/86fcdefa-deaf-4256-9cd4-b6464d5bd7bd/activar-panel-de-capas.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/86fcdefa-deaf-4256-9cd4-b6464d5bd7bd/activar-panel-de-capas.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/86fcdefa-deaf-4256-9cd4-b6464d5bd7bd/activar-panel-de-capas.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/86fcdefa-deaf-4256-9cd4-b6464d5bd7bd/activar-panel-de-capas.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="280"
+    height="332"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/740d4851-07a4-45d2-8e5f-23b055c51fe1/panel-capas.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/740d4851-07a4-45d2-8e5f-23b055c51fe1/panel-capas.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/740d4851-07a4-45d2-8e5f-23b055c51fe1/panel-capas.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/740d4851-07a4-45d2-8e5f-23b055c51fe1/panel-capas.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/740d4851-07a4-45d2-8e5f-23b055c51fe1/panel-capas.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/740d4851-07a4-45d2-8e5f-23b055c51fe1/panel-capas.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/740d4851-07a4-45d2-8e5f-23b055c51fe1/panel-capas.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/740d4851-07a4-45d2-8e5f-23b055c51fe1/panel-capas.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Dentro del panel de capas podemos encontrar varias opciones:</p>
+<h3>Modos de fusi&oacute;n</h3>
+<p class="">Los modos de fusi&oacute;n afectan la forma en que se pueden ver los p&iacute;xeles de las capas, lo m&aacute;s com&uacute;n es que utilicemos el <strong>modo de fusi&oacute;n</strong> que viene por defecto, el <strong>normal</strong>, que no afecta a los p&iacute;xeles y permite visualizar la capa como una imagen s&oacute;lida.</p>
+<p class="">Sin embargo, existen 27 modos de fusi&oacute;n, que act&uacute;an de forma diferente sobre los p&iacute;xeles y cambian la forma en que interact&uacute;an tanto la capa superior como la inferior. Ya sea mostrando los p&iacute;xeles m&aacute;s claros de una de las capas, eliminando p&iacute;xeles que no son completamente s&oacute;lidos.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="188"
+    height="489"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/d91a88d6-77e4-41fc-9484-fa0cc8d84133/tipos-de-fusion.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/d91a88d6-77e4-41fc-9484-fa0cc8d84133/tipos-de-fusion.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/d91a88d6-77e4-41fc-9484-fa0cc8d84133/tipos-de-fusion.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/d91a88d6-77e4-41fc-9484-fa0cc8d84133/tipos-de-fusion.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/d91a88d6-77e4-41fc-9484-fa0cc8d84133/tipos-de-fusion.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/d91a88d6-77e4-41fc-9484-fa0cc8d84133/tipos-de-fusion.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/d91a88d6-77e4-41fc-9484-fa0cc8d84133/tipos-de-fusion.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/d91a88d6-77e4-41fc-9484-fa0cc8d84133/tipos-de-fusion.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><h3>Opacidad y Relleno</h3></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="280"
+    height="184"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6d2ac6b9-5ae7-4851-87d2-cec36c441a53/opacidad-y-relleno.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6d2ac6b9-5ae7-4851-87d2-cec36c441a53/opacidad-y-relleno.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6d2ac6b9-5ae7-4851-87d2-cec36c441a53/opacidad-y-relleno.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6d2ac6b9-5ae7-4851-87d2-cec36c441a53/opacidad-y-relleno.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6d2ac6b9-5ae7-4851-87d2-cec36c441a53/opacidad-y-relleno.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6d2ac6b9-5ae7-4851-87d2-cec36c441a53/opacidad-y-relleno.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6d2ac6b9-5ae7-4851-87d2-cec36c441a53/opacidad-y-relleno.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6d2ac6b9-5ae7-4851-87d2-cec36c441a53/opacidad-y-relleno.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Estas, aunque son funciones diferentes, las he juntado por una raz&oacute;n, muchas veces pensamos que hacen lo mismo, sin embargo, tienen sus diferencias, aqu&iacute; abajo te explico qu&eacute; hace cada una:</p>
+<ul data-rte-list="default">
+ <li><p class=""><strong>Opacidad: </strong>Controla qu&eacute; tan transparente u opaca es una capa, un valor mayor de opacidad hace que la capa sea m&aacute;s s&oacute;lida, mientras que un valor menor la hace m&aacute;s transparente. La opacidad <strong>afecta tanto a los elementos de la capa como a los estilos aplicados a ella.</strong></p></li>
+ <li><p class=""><strong>Relleno:</strong> afecta solo a los elementos de la capa y <strong>no afecta a los estilos aplicados</strong>. Al ajustar el relleno de una capa, puedes hacer que los objetos en la capa sean m&aacute;s transparentes sin afectar los estilos de la capa, como los efectos aplicados.</p></li>
+</ul>
+<h3>Bloqueo de capas</h3>
+<p class="">Esta funci&oacute;n viene por defecto cuando abres casi cualquier fotograf&iacute;a en Photoshop, y digo casi porque cuando la imagen est&aacute; en PNG no la bloquea.</p>
+<p class="">La principal funci&oacute;n del bloqueo es evitar que puedas editar sobre la imagen original.</p>
+<p class="">Aqu&iacute; es donde seguro te preguntas, pero si est&aacute; bloqueada, &iquest;C&oacute;mo voy a editar? Muy f&aacute;cil, tienes varias opciones:</p>
+<ul data-rte-list="default">
+ <li><p class="">Clicar sobre el candado para quitar el bloqueo y listo.</p></li>
+ <li><p class="">La que yo utilizo es duplicando la capa con el comando Ctrl+J o dando clic derecho sobre el fondo y seleccionando la opci&oacute;n de duplicar capa, lo cual crea un duplicado del fondo sin bloqueo.</p></li>
+ <li><p class="">Mover la capa de fondo para convertirla en una capa normal.</p></li>
+</ul>
+<p class="">Si quieres evitar modificar alguna capa, puedes bloquear la capa de forma intencional, solo debes asegurarte de tener seleccionada la capa que quieres bloquear y clicar en el s&iacute;mbolo de candado que aparece en la parte superior del panel de capas.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="292"
+    height="196"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/8b8f90b1-02ac-4fa6-aabd-e4553bc37f55/bloquear-desbloquear.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/8b8f90b1-02ac-4fa6-aabd-e4553bc37f55/bloquear-desbloquear.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/8b8f90b1-02ac-4fa6-aabd-e4553bc37f55/bloquear-desbloquear.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/8b8f90b1-02ac-4fa6-aabd-e4553bc37f55/bloquear-desbloquear.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/8b8f90b1-02ac-4fa6-aabd-e4553bc37f55/bloquear-desbloquear.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/8b8f90b1-02ac-4fa6-aabd-e4553bc37f55/bloquear-desbloquear.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/8b8f90b1-02ac-4fa6-aabd-e4553bc37f55/bloquear-desbloquear.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/8b8f90b1-02ac-4fa6-aabd-e4553bc37f55/bloquear-desbloquear.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><h3>El ojo</h3>
+<p class="">El emoticono con forma de ojo que aparece al costado izquierdo, permite controlar la visibilidad de las capas sobre las cuales est&aacute;s trabajando.</p>
+<p class="">Puedes activar o desactivar la visibilidad de una capa para saber c&oacute;mo se ve el proyecto sin dicha capa o si tienes que hacer alguna modificaci&oacute;n en las capas inferiores sin que la otra capa te moleste.&nbsp;</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="292"
+    height="196"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/c22df86e-06c3-40f4-9e4b-f17e76f45bd1/visibilidad.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/c22df86e-06c3-40f4-9e4b-f17e76f45bd1/visibilidad.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/c22df86e-06c3-40f4-9e4b-f17e76f45bd1/visibilidad.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/c22df86e-06c3-40f4-9e4b-f17e76f45bd1/visibilidad.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/c22df86e-06c3-40f4-9e4b-f17e76f45bd1/visibilidad.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/c22df86e-06c3-40f4-9e4b-f17e76f45bd1/visibilidad.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/c22df86e-06c3-40f4-9e4b-f17e76f45bd1/visibilidad.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/c22df86e-06c3-40f4-9e4b-f17e76f45bd1/visibilidad.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><h3>Estilo de capa</h3>
+<p class="">Esta opci&oacute;n permite aplicar un efecto sobre las capas, los cuales cambian la apariencia de la misma, dependiendo del estilo que se elija. Puedes agregar biseles, contornos, trazos, texturas, sombras o degradados.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="347"
+    height="131"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/353a7b22-c9f1-470c-8eff-71546d3ccf97/fx.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/353a7b22-c9f1-470c-8eff-71546d3ccf97/fx.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/353a7b22-c9f1-470c-8eff-71546d3ccf97/fx.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/353a7b22-c9f1-470c-8eff-71546d3ccf97/fx.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/353a7b22-c9f1-470c-8eff-71546d3ccf97/fx.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/353a7b22-c9f1-470c-8eff-71546d3ccf97/fx.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/353a7b22-c9f1-470c-8eff-71546d3ccf97/fx.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/353a7b22-c9f1-470c-8eff-71546d3ccf97/fx.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><h3>Mascara de capas</h3>
+<p class="">Esta es una de las mejores herramientas de Photoshop que puedes utilizar para hacer fotomontajes o ediciones avanzadas con varias capas.</p>
+<p class="">La m&aacute;scara de capa permite eliminar pixeles de la capa superior, de forma no destructiva, por lo que puedes mostrarlos u ocultarlos con tan solo pintar de blanco o negro sobre la mascara.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="347"
+    height="131"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6ecca1fd-cefe-43c4-8509-4beed8847cca/mascara-de-capas.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6ecca1fd-cefe-43c4-8509-4beed8847cca/mascara-de-capas.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6ecca1fd-cefe-43c4-8509-4beed8847cca/mascara-de-capas.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6ecca1fd-cefe-43c4-8509-4beed8847cca/mascara-de-capas.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6ecca1fd-cefe-43c4-8509-4beed8847cca/mascara-de-capas.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6ecca1fd-cefe-43c4-8509-4beed8847cca/mascara-de-capas.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6ecca1fd-cefe-43c4-8509-4beed8847cca/mascara-de-capas.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/6ecca1fd-cefe-43c4-8509-4beed8847cca/mascara-de-capas.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><h3>Capa de relleno o ajuste</h3>
+<p class="">Se utiliza para aplicar cambios en el color, tono y otros aspectos de una imagen sin modificar permanentemente los p&iacute;xeles originales. Estas capas permiten realizar ajustes selectivos y no destructivos&nbsp;</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="347"
+    height="131"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/4b3ba76a-f00f-4015-a680-94d2cd79c9f7/capa-de-ajuste.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/4b3ba76a-f00f-4015-a680-94d2cd79c9f7/capa-de-ajuste.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/4b3ba76a-f00f-4015-a680-94d2cd79c9f7/capa-de-ajuste.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/4b3ba76a-f00f-4015-a680-94d2cd79c9f7/capa-de-ajuste.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/4b3ba76a-f00f-4015-a680-94d2cd79c9f7/capa-de-ajuste.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/4b3ba76a-f00f-4015-a680-94d2cd79c9f7/capa-de-ajuste.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/4b3ba76a-f00f-4015-a680-94d2cd79c9f7/capa-de-ajuste.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/4b3ba76a-f00f-4015-a680-94d2cd79c9f7/capa-de-ajuste.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><h3>Agrupar capas</h3>
+<p class="">Esta opci&oacute;n permite seleccionar varias capas y crear una carpeta en la cual estar&aacute;n contenidas todas las capas seleccionadas.</p>
+<p class="">Es muy &uacute;til por si no quieres ocupar todo el panel con capas del mismo&nbsp;</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="347"
+    height="131"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/3127ab14-d3ca-48de-8a44-20db8571bf84/agrupar-capas.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/3127ab14-d3ca-48de-8a44-20db8571bf84/agrupar-capas.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/3127ab14-d3ca-48de-8a44-20db8571bf84/agrupar-capas.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/3127ab14-d3ca-48de-8a44-20db8571bf84/agrupar-capas.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/3127ab14-d3ca-48de-8a44-20db8571bf84/agrupar-capas.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/3127ab14-d3ca-48de-8a44-20db8571bf84/agrupar-capas.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/3127ab14-d3ca-48de-8a44-20db8571bf84/agrupar-capas.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/3127ab14-d3ca-48de-8a44-20db8571bf84/agrupar-capas.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><h3>Crear nueva capa</h3>
+<p class="">Otro de las opciones que encontramos en el panel de capas es el de crear una nueva capa, con tan solo un clic ya tienes una nueva capa lista para trabajar.</p>
+<p class="">Tambi&eacute;n puedes crear una nueva capa, clicando en el men&uacute; superior Capa, seleccionando la opci&oacute;n Nueva y por &uacute;ltimo, Capa…</p>
+<p class="">Otra forma m&aacute;s pr&aacute;ctica de crear una capa es con el comando May&uacute;s + Ctrl + N.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="347"
+    height="131"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a1f9e72e-35c0-4c07-b986-14fb5c9cc2e5/crear-nueva-capa.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a1f9e72e-35c0-4c07-b986-14fb5c9cc2e5/crear-nueva-capa.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a1f9e72e-35c0-4c07-b986-14fb5c9cc2e5/crear-nueva-capa.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a1f9e72e-35c0-4c07-b986-14fb5c9cc2e5/crear-nueva-capa.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a1f9e72e-35c0-4c07-b986-14fb5c9cc2e5/crear-nueva-capa.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a1f9e72e-35c0-4c07-b986-14fb5c9cc2e5/crear-nueva-capa.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a1f9e72e-35c0-4c07-b986-14fb5c9cc2e5/crear-nueva-capa.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a1f9e72e-35c0-4c07-b986-14fb5c9cc2e5/crear-nueva-capa.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><h3>Eliminar capa</h3>
+<p class="">Con esta opci&oacute;n podr&aacute;s eliminar una o varias capas sobre las que est&eacute;s trabajando. Claro, aseg&uacute;rate de eliminar la capa correcta.</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="347"
+    height="131"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f6e5d288-5d18-4575-a406-4d5fc8b47359/eliminar-capa.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f6e5d288-5d18-4575-a406-4d5fc8b47359/eliminar-capa.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f6e5d288-5d18-4575-a406-4d5fc8b47359/eliminar-capa.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f6e5d288-5d18-4575-a406-4d5fc8b47359/eliminar-capa.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f6e5d288-5d18-4575-a406-4d5fc8b47359/eliminar-capa.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f6e5d288-5d18-4575-a406-4d5fc8b47359/eliminar-capa.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f6e5d288-5d18-4575-a406-4d5fc8b47359/eliminar-capa.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/f6e5d288-5d18-4575-a406-4d5fc8b47359/eliminar-capa.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Si quiere ampliar tus conocimientos sobre las capas de Photoshop te invito a que mires el <a href="../curso-de-retoque-digital-lightroom-photoshop.html" target="_blank"><strong>curso de edici&oacute;n fotogr&aacute;fica de Kike Arnaiz</strong></a>, en el que aprender&aacute;s todo lo que necesitas para hacer ediciones como un Pro.&nbsp;</p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="260"
+    height="364"
+    src="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/a091d294-c5c8-485d-9a0f-374679042b0d/curso-edicion-kike-arnaiz.jpg?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-placeholder-block">
+  <a href="capas-de-photoshop.html">
+    <em>
+      See this gallery in the original post
+    </em>
+  </a>
+</div>
+
+
+      <footer class="amp-article-footer">
+        <p class="amp-article-original-source">
+          Discover more from <a href="../aprender-fotografia.html" target="_blank"><em>KIKE ARNAIZ</em></a>
+        </p>
+      </footer>
+
+    </article>
+  </div>
+</body>
+
+<!-- Mirrored from www.kikearnaiz.com/aprender-fotografia/capas-de-photoshop?format=amp by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Dec 2024 19:34:04 GMT -->
+</html>
